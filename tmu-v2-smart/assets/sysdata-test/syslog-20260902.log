@@ -1,0 +1,635 @@
+2026-09-02 10:43:22,887 | INFO: Starting App
+2026-09-02 10:43:22,894 | INFO: Initializing App
+2026-09-02 10:43:22,894 | DEBUG: Start data_handler.py
+2026-09-02 10:43:22,894 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:43:22,895 | DEBUG: Process data_handler.py started with PID: 32472
+2026-09-02 10:43:22,895 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:43:23,896 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:43:23,897 | DEBUG: Process module_IO.py started with PID: 32473
+2026-09-02 10:43:23,898 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:43:24,898 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:43:24,899 | DEBUG: Process displayGUI.py started with PID: 32482
+2026-09-02 10:43:24,899 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:43:25,900 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:43:25,901 | DEBUG: Process modbusTcpServer.py started with PID: 32485
+2026-09-02 10:43:25,902 | DEBUG: Init GUI Tkinter
+2026-09-02 10:43:26,203 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:43:26,205 | DEBUG: Module IO | Initialize program
+2026-09-02 10:43:26,205 | DEBUG: Module IO | Start loop
+2026-09-02 10:43:26,206 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:43:26,207 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:43:26,207 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:43:26,207 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 97, in <module>
+2026-09-02 10:43:26,207 | DEBUG: Child Output: app = DisplayGUI(root)
+2026-09-02 10:43:26,207 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^
+2026-09-02 10:43:26,208 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 54, in __init__
+2026-09-02 10:43:26,208 | DEBUG: Child Output: self.update_loop()
+2026-09-02 10:43:26,208 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 85, in update_loop
+2026-09-02 10:43:26,208 | DEBUG: Child Output: self.updatePages(snapshot)
+2026-09-02 10:43:26,208 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 63, in updatePages
+2026-09-02 10:43:26,208 | DEBUG: Child Output: self.data_labels[i]["text"] = data[i]
+2026-09-02 10:43:26,208 | DEBUG: Child Output: ~~~~^^^
+2026-09-02 10:43:26,208 | DEBUG: Child Output: IndexError: list index out of range
+2026-09-02 10:43:26,287 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:43:26,287 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:43:45,763 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:43:45,763 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:43:45,763 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:44:26,210 | INFO: Restart triggered by watchdog freeze detection
+2026-09-02 10:44:28,408 | INFO: Starting App
+2026-09-02 10:44:28,415 | INFO: Initializing App
+2026-09-02 10:44:28,415 | DEBUG: Start data_handler.py
+2026-09-02 10:44:28,415 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:44:28,416 | DEBUG: Process data_handler.py started with PID: 32929
+2026-09-02 10:44:28,417 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:44:29,417 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:44:29,422 | DEBUG: Process module_IO.py started with PID: 32930
+2026-09-02 10:44:29,422 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:44:30,422 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:44:30,423 | DEBUG: Process displayGUI.py started with PID: 32940
+2026-09-02 10:44:30,424 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:44:31,424 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:44:31,425 | DEBUG: Process modbusTcpServer.py started with PID: 32946
+2026-09-02 10:44:31,425 | DEBUG: Init GUI Tkinter
+2026-09-02 10:44:31,675 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:44:31,677 | DEBUG: Module IO | Initialize program
+2026-09-02 10:44:31,677 | DEBUG: Module IO | Start loop
+2026-09-02 10:44:31,677 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:44:31,678 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:44:31,679 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:44:31,679 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 97, in <module>
+2026-09-02 10:44:31,680 | DEBUG: Child Output: app = DisplayGUI(root)
+2026-09-02 10:44:31,680 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^
+2026-09-02 10:44:31,680 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 54, in __init__
+2026-09-02 10:44:31,680 | DEBUG: Child Output: self.update_loop()
+2026-09-02 10:44:31,680 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 85, in update_loop
+2026-09-02 10:44:31,681 | DEBUG: Child Output: self.updatePages(snapshot)
+2026-09-02 10:44:31,681 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 63, in updatePages
+2026-09-02 10:44:31,681 | DEBUG: Child Output: self.data_labels[i]["text"] = data[i]
+2026-09-02 10:44:31,681 | DEBUG: Child Output: ~~~~^^^
+2026-09-02 10:44:31,681 | DEBUG: Child Output: IndexError: list index out of range
+2026-09-02 10:44:31,764 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:44:31,764 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:44:51,637 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:44:51,637 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:44:51,637 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:45:31,678 | INFO: Restart triggered by watchdog freeze detection
+2026-09-02 10:45:33,877 | INFO: Starting App
+2026-09-02 10:45:33,884 | INFO: Initializing App
+2026-09-02 10:45:33,885 | DEBUG: Start data_handler.py
+2026-09-02 10:45:33,885 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:45:33,886 | DEBUG: Process data_handler.py started with PID: 33369
+2026-09-02 10:45:33,886 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:45:34,887 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:45:34,890 | DEBUG: Process module_IO.py started with PID: 33370
+2026-09-02 10:45:34,891 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:45:35,891 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:45:35,893 | DEBUG: Process displayGUI.py started with PID: 33377
+2026-09-02 10:45:35,893 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:45:36,893 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:45:36,895 | DEBUG: Process modbusTcpServer.py started with PID: 33399
+2026-09-02 10:45:36,895 | DEBUG: Init GUI Tkinter
+2026-09-02 10:45:37,188 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:45:37,190 | DEBUG: Module IO | Initialize program
+2026-09-02 10:45:37,190 | DEBUG: Module IO | Start loop
+2026-09-02 10:45:37,191 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:45:37,191 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:45:37,191 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:45:37,191 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 97, in <module>
+2026-09-02 10:45:37,191 | DEBUG: Child Output: app = DisplayGUI(root)
+2026-09-02 10:45:37,191 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^
+2026-09-02 10:45:37,192 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 54, in __init__
+2026-09-02 10:45:37,192 | DEBUG: Child Output: self.update_loop()
+2026-09-02 10:45:37,192 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 85, in update_loop
+2026-09-02 10:45:37,192 | DEBUG: Child Output: self.updatePages(snapshot)
+2026-09-02 10:45:37,192 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 63, in updatePages
+2026-09-02 10:45:37,192 | DEBUG: Child Output: self.data_labels[i]["text"] = data[i]
+2026-09-02 10:45:37,192 | DEBUG: Child Output: ~~~~^^^
+2026-09-02 10:45:37,192 | DEBUG: Child Output: IndexError: list index out of range
+2026-09-02 10:45:37,306 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:45:37,306 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:45:52,624 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:45:52,624 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:45:52,624 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:45:52,624 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:45:52,624 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:45:52,625 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:45:52,625 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:45:52,625 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 10:45:55,838 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:45:55,838 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:45:55,839 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:45:55,839 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:45:55,839 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:45:55,839 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:45:55,839 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:45:55,840 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 10:45:56,053 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:45:56,053 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:45:56,053 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:46:37,193 | INFO: Restart triggered by watchdog freeze detection
+2026-09-02 10:46:39,392 | INFO: Starting App
+2026-09-02 10:46:39,399 | INFO: Initializing App
+2026-09-02 10:46:39,399 | DEBUG: Start data_handler.py
+2026-09-02 10:46:39,399 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:46:39,401 | DEBUG: Process data_handler.py started with PID: 33831
+2026-09-02 10:46:39,401 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:46:40,401 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:46:40,402 | DEBUG: Process module_IO.py started with PID: 33832
+2026-09-02 10:46:40,403 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:46:41,403 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:46:41,404 | DEBUG: Process displayGUI.py started with PID: 33860
+2026-09-02 10:46:41,405 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:46:42,405 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:46:42,406 | DEBUG: Process modbusTcpServer.py started with PID: 33863
+2026-09-02 10:46:42,407 | DEBUG: Init GUI Tkinter
+2026-09-02 10:46:42,664 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:46:42,666 | DEBUG: Module IO | Initialize program
+2026-09-02 10:46:42,666 | DEBUG: Module IO | Start loop
+2026-09-02 10:46:42,667 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:46:42,667 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:46:42,668 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:46:42,668 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 97, in <module>
+2026-09-02 10:46:42,668 | DEBUG: Child Output: app = DisplayGUI(root)
+2026-09-02 10:46:42,668 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^
+2026-09-02 10:46:42,668 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 54, in __init__
+2026-09-02 10:46:42,668 | DEBUG: Child Output: self.update_loop()
+2026-09-02 10:46:42,668 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 85, in update_loop
+2026-09-02 10:46:42,669 | DEBUG: Child Output: self.updatePages(snapshot)
+2026-09-02 10:46:42,669 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/displayGUI.py", line 63, in updatePages
+2026-09-02 10:46:42,669 | DEBUG: Child Output: self.data_labels[i]["text"] = data[i]
+2026-09-02 10:46:42,669 | DEBUG: Child Output: ~~~~^^^
+2026-09-02 10:46:42,669 | DEBUG: Child Output: IndexError: list index out of range
+2026-09-02 10:46:42,745 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:46:42,745 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:47:04,229 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:47:04,229 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:47:04,229 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:47:18,812 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:47:18,812 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:47:18,812 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:47:18,812 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:47:18,813 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:47:18,813 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:47:18,813 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:47:18,813 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 10:52:35,207 | INFO: Starting App
+2026-09-02 10:52:35,214 | INFO: Initializing App
+2026-09-02 10:52:35,214 | DEBUG: Start data_handler.py
+2026-09-02 10:52:35,214 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:52:35,216 | DEBUG: Process data_handler.py started with PID: 35176
+2026-09-02 10:52:35,216 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:52:36,216 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:52:36,218 | DEBUG: Process module_IO.py started with PID: 35177
+2026-09-02 10:52:36,219 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:52:37,219 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:52:37,221 | DEBUG: Process displayGUI.py started with PID: 35188
+2026-09-02 10:52:37,221 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:52:38,221 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:52:38,223 | DEBUG: Process modbusTcpServer.py started with PID: 35194
+2026-09-02 10:52:38,223 | DEBUG: Init GUI Tkinter
+2026-09-02 10:52:38,477 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:52:38,479 | DEBUG: Module IO | Initialize program
+2026-09-02 10:52:38,480 | DEBUG: Module IO | Start loop
+2026-09-02 10:52:38,480 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:52:38,481 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:52:38,562 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:52:38,563 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:52:57,623 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:52:57,623 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:52:57,623 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:54:55,337 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:54:55,337 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:54:55,337 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:54:55,338 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:54:55,338 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:54:55,338 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:54:55,338 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:54:55,338 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 10:55:53,514 | INFO: Starting App
+2026-09-02 10:55:53,520 | INFO: Initializing App
+2026-09-02 10:55:53,521 | DEBUG: Start data_handler.py
+2026-09-02 10:55:53,521 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:55:53,522 | DEBUG: Process data_handler.py started with PID: 36424
+2026-09-02 10:55:53,522 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:55:54,523 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:55:54,524 | DEBUG: Process module_IO.py started with PID: 36443
+2026-09-02 10:55:54,525 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:55:55,526 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:55:55,527 | DEBUG: Process displayGUI.py started with PID: 36454
+2026-09-02 10:55:55,527 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:55:56,528 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:55:56,529 | DEBUG: Process modbusTcpServer.py started with PID: 36459
+2026-09-02 10:55:56,529 | DEBUG: Init GUI Tkinter
+2026-09-02 10:55:56,785 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:55:56,787 | DEBUG: Module IO | Initialize program
+2026-09-02 10:55:56,788 | DEBUG: Module IO | Start loop
+2026-09-02 10:55:56,788 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:55:56,789 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:55:56,868 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:55:56,868 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:56:18,514 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:56:18,514 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:56:18,514 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:58:13,122 | INFO: Starting App
+2026-09-02 10:58:13,128 | INFO: Initializing App
+2026-09-02 10:58:13,128 | DEBUG: Start data_handler.py
+2026-09-02 10:58:13,129 | DEBUG: Starting process: data_handler.py
+2026-09-02 10:58:13,130 | DEBUG: Process data_handler.py started with PID: 37417
+2026-09-02 10:58:13,130 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 10:58:14,130 | DEBUG: Starting process: module_IO.py
+2026-09-02 10:58:14,132 | DEBUG: Process module_IO.py started with PID: 37419
+2026-09-02 10:58:14,132 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 10:58:15,132 | DEBUG: Starting process: displayGUI.py
+2026-09-02 10:58:15,134 | DEBUG: Process displayGUI.py started with PID: 37426
+2026-09-02 10:58:15,134 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 10:58:16,134 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 10:58:16,135 | DEBUG: Process modbusTcpServer.py started with PID: 37430
+2026-09-02 10:58:16,136 | DEBUG: Init GUI Tkinter
+2026-09-02 10:58:16,388 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 10:58:16,390 | DEBUG: Module IO | Initialize program
+2026-09-02 10:58:16,391 | DEBUG: Module IO | Start loop
+2026-09-02 10:58:16,392 | DEBUG: Display GUI | Initialize program
+2026-09-02 10:58:16,393 | DEBUG: Display GUI | Start Loop
+2026-09-02 10:58:16,475 | DEBUG: Modbus Server | Initialize program
+2026-09-02 10:58:16,475 | DEBUG: Modbus Server | Start Loop
+2026-09-02 10:58:30,393 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:58:30,393 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:58:30,394 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:58:30,394 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:58:30,394 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:58:30,395 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:58:30,395 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:58:30,396 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 10:58:40,242 | DEBUG: Data Handler | Initialize Program
+2026-09-02 10:58:40,243 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 10:58:40,243 | DEBUG: Data Handler | Start Loop
+2026-09-02 10:58:58,016 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 10:58:58,016 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 10:58:58,016 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 10:58:58,016 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 10:58:58,016 | DEBUG: Child Output: self._process(callback)
+2026-09-02 10:58:58,017 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 10:58:58,017 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 10:58:58,017 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:01:26,201 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 11:01:26,202 | DEBUG: Data Handler | Backup Excel
+2026-09-02 11:01:26,202 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 11:01:26,202 | DEBUG: Data Handler | Excel Size 10260
+2026-09-02 11:01:26,202 | DEBUG: Data Handler | Backup Size 7244
+2026-09-02 11:01:26,202 | DEBUG: Data Handler | Save Success
+2026-09-02 11:02:40,555 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 11:02:40,556 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 11:02:40,556 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 11:02:40,556 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 11:02:40,556 | DEBUG: Child Output: self._process(callback)
+2026-09-02 11:02:40,556 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 11:02:40,556 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 11:02:40,556 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:03:33,404 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 11:03:33,405 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 11:03:33,406 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 11:03:33,407 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 11:03:33,407 | DEBUG: Child Output: self._process(callback)
+2026-09-02 11:03:33,407 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 11:03:33,408 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 11:03:33,408 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:04:40,869 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 11:04:40,870 | DEBUG: Data Handler | Backup Excel
+2026-09-02 11:04:40,870 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 11:04:40,870 | DEBUG: Data Handler | Excel Size 13046
+2026-09-02 11:04:40,870 | DEBUG: Data Handler | Backup Size 10260
+2026-09-02 11:04:40,871 | DEBUG: Data Handler | Save Success
+2026-09-02 11:06:02,116 | INFO: Starting App
+2026-09-02 11:06:02,123 | INFO: Initializing App
+2026-09-02 11:06:02,123 | DEBUG: Start data_handler.py
+2026-09-02 11:06:02,123 | DEBUG: Starting process: data_handler.py
+2026-09-02 11:06:02,124 | DEBUG: Process data_handler.py started with PID: 40674
+2026-09-02 11:06:02,125 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 11:06:03,125 | DEBUG: Starting process: module_IO.py
+2026-09-02 11:06:03,126 | DEBUG: Process module_IO.py started with PID: 40675
+2026-09-02 11:06:03,127 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 11:06:04,127 | DEBUG: Starting process: displayGUI.py
+2026-09-02 11:06:04,128 | DEBUG: Process displayGUI.py started with PID: 40686
+2026-09-02 11:06:04,128 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 11:06:05,129 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 11:06:05,130 | DEBUG: Process modbusTcpServer.py started with PID: 40704
+2026-09-02 11:06:05,130 | DEBUG: Init GUI Tkinter
+2026-09-02 11:06:05,408 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 11:06:05,410 | DEBUG: Module IO | Initialize program
+2026-09-02 11:06:05,411 | DEBUG: Module IO | Start loop
+2026-09-02 11:06:05,411 | DEBUG: Display GUI | Initialize program
+2026-09-02 11:06:05,412 | DEBUG: Display GUI | Start Loop
+2026-09-02 11:06:05,581 | DEBUG: Modbus Server | Initialize program
+2026-09-02 11:06:05,582 | DEBUG: Modbus Server | Start Loop
+2026-09-02 11:06:31,210 | DEBUG: Data Handler | Initialize Program
+2026-09-02 11:06:31,211 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 11:06:31,211 | DEBUG: Data Handler | Start Loop
+2026-09-02 11:07:40,051 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 11:07:40,052 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 11:07:40,052 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 11:07:40,052 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 11:07:40,052 | DEBUG: Child Output: self._process(callback)
+2026-09-02 11:07:40,053 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 11:07:40,053 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 11:07:40,053 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:07:56,091 | INFO: Starting App
+2026-09-02 11:07:56,103 | INFO: Initializing App
+2026-09-02 11:07:56,103 | DEBUG: Start data_handler.py
+2026-09-02 11:07:56,103 | DEBUG: Starting process: data_handler.py
+2026-09-02 11:07:56,105 | DEBUG: Process data_handler.py started with PID: 41540
+2026-09-02 11:07:56,105 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 11:07:57,105 | DEBUG: Starting process: module_IO.py
+2026-09-02 11:07:57,107 | DEBUG: Process module_IO.py started with PID: 41541
+2026-09-02 11:07:57,107 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 11:07:58,108 | DEBUG: Starting process: displayGUI.py
+2026-09-02 11:07:58,109 | DEBUG: Process displayGUI.py started with PID: 41550
+2026-09-02 11:07:58,109 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 11:07:59,109 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 11:07:59,111 | DEBUG: Process modbusTcpServer.py started with PID: 41554
+2026-09-02 11:07:59,111 | DEBUG: Init GUI Tkinter
+2026-09-02 11:07:59,365 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 11:07:59,367 | DEBUG: Module IO | Initialize program
+2026-09-02 11:07:59,368 | DEBUG: Module IO | Start loop
+2026-09-02 11:07:59,368 | DEBUG: Display GUI | Initialize program
+2026-09-02 11:07:59,369 | DEBUG: Display GUI | Start Loop
+2026-09-02 11:07:59,455 | DEBUG: Modbus Server | Initialize program
+2026-09-02 11:07:59,455 | DEBUG: Modbus Server | Start Loop
+2026-09-02 11:08:22,546 | DEBUG: Data Handler | Initialize Program
+2026-09-02 11:08:22,546 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 11:08:22,546 | DEBUG: Data Handler | Start Loop
+2026-09-02 11:10:05,781 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 11:10:05,782 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 11:10:05,782 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 11:10:05,782 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 11:10:05,782 | DEBUG: Child Output: self._process(callback)
+2026-09-02 11:10:05,782 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 11:10:05,783 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 11:10:05,783 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:11:01,768 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 11:11:01,768 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 11:11:01,768 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 11:11:01,769 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 11:11:01,769 | DEBUG: Child Output: self._process(callback)
+2026-09-02 11:11:01,769 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 11:11:01,769 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 11:11:01,769 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 11:11:12,249 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 11:11:12,249 | DEBUG: Data Handler | Backup Excel
+2026-09-02 11:11:12,249 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 11:11:12,249 | DEBUG: Data Handler | Excel Size 15824
+2026-09-02 11:11:12,249 | DEBUG: Data Handler | Backup Size 13046
+2026-09-02 11:11:12,250 | DEBUG: Data Handler | Save Success
+2026-09-02 17:00:33,883 | INFO: Starting App
+2026-09-02 17:00:33,970 | ERROR: Unhandled exception in main: 2003: Can't connect to MySQL server on 'localhost:3306' (111 Connection refused)
+2026-09-02 17:00:44,673 | INFO: Starting App
+2026-09-02 17:00:44,690 | INFO: Initializing App
+2026-09-02 17:00:44,691 | DEBUG: Start data_handler.py
+2026-09-02 17:00:44,691 | DEBUG: Starting process: data_handler.py
+2026-09-02 17:00:44,697 | DEBUG: Process data_handler.py started with PID: 1504
+2026-09-02 17:00:44,698 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 17:00:45,698 | DEBUG: Starting process: module_IO.py
+2026-09-02 17:00:45,700 | DEBUG: Process module_IO.py started with PID: 1522
+2026-09-02 17:00:45,700 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 17:00:46,700 | DEBUG: Starting process: displayGUI.py
+2026-09-02 17:00:46,702 | DEBUG: Process displayGUI.py started with PID: 1625
+2026-09-02 17:00:46,702 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 17:00:47,702 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 17:00:47,708 | DEBUG: Process modbusTcpServer.py started with PID: 1731
+2026-09-02 17:00:47,708 | DEBUG: Init GUI Tkinter
+2026-09-02 17:00:48,779 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 17:00:48,780 | DEBUG: Data Handler | Initialize Program
+2026-09-02 17:00:48,780 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 17:00:48,780 | DEBUG: Module IO | Initialize program
+2026-09-02 17:00:48,780 | DEBUG: Data Handler | Start Loop
+2026-09-02 17:00:48,782 | DEBUG: Modbus Server | Initialize program
+2026-09-02 17:00:48,783 | DEBUG: Modbus Server | Start Loop
+2026-09-02 17:00:48,783 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:00:48,782 | DEBUG: Module IO | Start loop
+2026-09-02 17:00:48,784 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/data_handler.py", line 482, in <module>
+2026-09-02 17:00:48,784 | DEBUG: Child Output: main()
+2026-09-02 17:00:48,785 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/data_handler.py", line 186, in main
+2026-09-02 17:00:48,785 | DEBUG: Child Output: client.write_coil(i, True, slave = 1)
+2026-09-02 17:00:48,785 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/client/mixin.py", line 158, in write_coil
+2026-09-02 17:00:48,785 | DEBUG: Child Output: return self.execute(request)
+2026-09-02 17:00:48,785 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^^^^^^
+2026-09-02 17:00:48,785 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/client/base.py", line 183, in execute
+2026-09-02 17:00:48,785 | DEBUG: Child Output: raise ConnectionException(f"Failed to connect[{str(self)}]")
+2026-09-02 17:00:48,785 | DEBUG: Child Output: pymodbus.exceptions.ConnectionException: Modbus Error: [Connection] Failed to connect[ModbusSerialClient(<pymodbus.framer.rtu_framer.ModbusRtuFramer object at 0x7f921d4550> baud[9600])]
+2026-09-02 17:00:48,793 | DEBUG: Display GUI | Initialize program
+2026-09-02 17:00:48,794 | DEBUG: Display GUI | Start Loop
+2026-09-02 17:01:48,783 | INFO: Restart triggered by watchdog freeze detection
+2026-09-02 17:01:50,982 | INFO: Starting App
+2026-09-02 17:01:50,989 | INFO: Initializing App
+2026-09-02 17:01:50,989 | DEBUG: Start data_handler.py
+2026-09-02 17:01:50,990 | DEBUG: Starting process: data_handler.py
+2026-09-02 17:01:50,991 | DEBUG: Process data_handler.py started with PID: 1755
+2026-09-02 17:01:50,991 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-02 17:01:51,991 | DEBUG: Starting process: module_IO.py
+2026-09-02 17:01:51,993 | DEBUG: Process module_IO.py started with PID: 1756
+2026-09-02 17:01:51,993 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-02 17:01:52,993 | DEBUG: Starting process: displayGUI.py
+2026-09-02 17:01:52,994 | DEBUG: Process displayGUI.py started with PID: 1760
+2026-09-02 17:01:52,995 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-02 17:01:53,995 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-02 17:01:53,996 | DEBUG: Process modbusTcpServer.py started with PID: 1762
+2026-09-02 17:01:53,997 | DEBUG: Init GUI Tkinter
+2026-09-02 17:01:54,256 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-02 17:01:54,258 | DEBUG: Module IO | Initialize program
+2026-09-02 17:01:54,259 | DEBUG: Module IO | Start loop
+2026-09-02 17:01:54,259 | DEBUG: Display GUI | Initialize program
+2026-09-02 17:01:54,259 | DEBUG: Display GUI | Start Loop
+2026-09-02 17:01:54,342 | DEBUG: Modbus Server | Initialize program
+2026-09-02 17:01:54,342 | DEBUG: Modbus Server | Start Loop
+2026-09-02 17:02:13,153 | DEBUG: Data Handler | Initialize Program
+2026-09-02 17:02:13,153 | DEBUG: Data Handler | Open Existing Excel
+2026-09-02 17:02:13,154 | DEBUG: Data Handler | Start Loop
+2026-09-02 17:05:01,099 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:05:01,099 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:05:01,100 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:05:01,100 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:05:01,100 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:05:01,100 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:05:01,100 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:05:01,100 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:05:11,650 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:05:11,651 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:05:11,651 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:05:11,651 | DEBUG: Data Handler | Excel Size 18926
+2026-09-02 17:05:11,651 | DEBUG: Data Handler | Backup Size 15824
+2026-09-02 17:05:11,651 | DEBUG: Data Handler | Save Success
+2026-09-02 17:05:58,013 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:05:58,013 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:05:58,013 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:05:58,013 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:05:58,013 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:05:58,013 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:05:58,013 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:05:58,013 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:06:26,864 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:06:26,865 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:06:26,865 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:06:26,865 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:06:26,865 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:06:26,865 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:06:26,865 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:06:26,865 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:06:52,788 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:06:52,789 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:06:52,789 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:06:52,789 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:06:52,790 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:06:52,790 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:06:52,790 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:06:52,790 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:07:48,598 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:07:48,598 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:07:48,598 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:07:48,598 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:07:48,598 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:07:48,598 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:07:48,598 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:07:48,598 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:08:28,303 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:08:28,303 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:08:28,303 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:08:28,303 | DEBUG: Data Handler | Excel Size 21663
+2026-09-02 17:08:28,303 | DEBUG: Data Handler | Backup Size 18926
+2026-09-02 17:08:28,304 | DEBUG: Data Handler | Save Success
+2026-09-02 17:11:39,622 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:11:39,623 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:11:39,623 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:11:39,623 | DEBUG: Data Handler | Excel Size 24241
+2026-09-02 17:11:39,623 | DEBUG: Data Handler | Backup Size 21663
+2026-09-02 17:11:39,623 | DEBUG: Data Handler | Save Success
+2026-09-02 17:12:18,818 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:12:18,818 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:12:18,818 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:12:18,818 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:12:18,818 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:12:18,818 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:12:18,818 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:12:18,818 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:13:07,431 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:13:07,432 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:13:07,433 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:13:07,433 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:13:07,433 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:13:07,433 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:13:07,433 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:13:07,433 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:13:40,568 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:13:40,568 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:13:40,568 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:13:40,568 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:13:40,568 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:13:40,568 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:13:40,568 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:13:40,568 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:13:43,778 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:13:43,779 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:13:43,779 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:13:43,779 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:13:43,779 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:13:43,779 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:13:43,779 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:13:43,779 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:13:47,015 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:13:47,015 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:13:47,016 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:13:47,016 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:13:47,017 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:13:47,017 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:13:47,018 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:13:47,019 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:14:05,838 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:14:05,839 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:14:05,839 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:14:05,839 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:14:05,839 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:14:05,839 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:14:05,839 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:14:05,839 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:14:09,073 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:14:09,073 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:14:09,074 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:14:09,074 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:14:09,074 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:14:09,074 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:14:09,074 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:14:09,075 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Excel Size 26462
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Backup Size 24241
+2026-09-02 17:14:47,886 | DEBUG: Data Handler | Save Success
+2026-09-02 17:15:55,248 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:15:55,248 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:15:55,248 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:15:55,248 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:15:55,249 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:15:55,249 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:15:55,249 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:15:55,249 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:15:58,480 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:15:58,480 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:15:58,480 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:15:58,480 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:15:58,480 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:15:58,480 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:15:58,480 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:15:58,481 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:16:51,272 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:16:51,273 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:16:51,273 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:16:51,273 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:16:51,273 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:16:51,273 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:16:51,273 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:16:51,273 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:17:52,309 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:17:52,309 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:17:52,309 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:17:52,309 | DEBUG: Data Handler | Excel Size 29027
+2026-09-02 17:17:52,310 | DEBUG: Data Handler | Backup Size 26462
+2026-09-02 17:17:52,310 | DEBUG: Data Handler | Save Success
+2026-09-02 17:19:25,551 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:19:25,551 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:19:25,551 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:19:25,551 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:19:25,552 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:19:25,552 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:19:25,552 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:19:25,552 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:19:28,783 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:19:28,783 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:19:28,784 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:19:28,784 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:19:28,784 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:19:28,784 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:19:28,784 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:19:28,785 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:20:52,197 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:20:52,197 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:20:52,197 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:20:52,198 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:20:52,198 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:20:52,198 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:20:52,198 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:20:52,199 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-02 17:21:02,865 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-02 17:21:02,865 | DEBUG: Data Handler | Backup Excel
+2026-09-02 17:21:02,865 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-02 17:21:02,865 | DEBUG: Data Handler | Excel Size 31591
+2026-09-02 17:21:02,866 | DEBUG: Data Handler | Backup Size 29027
+2026-09-02 17:21:02,866 | DEBUG: Data Handler | Save Success
+2026-09-02 17:22:42,290 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-02 17:22:42,291 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-02 17:22:42,291 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-02 17:22:42,291 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-02 17:22:42,291 | DEBUG: Child Output: self._process(callback)
+2026-09-02 17:22:42,291 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-02 17:22:42,291 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-02 17:22:42,291 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

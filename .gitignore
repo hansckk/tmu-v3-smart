@@ -1,0 +1,7 @@
+launcher_config.json
+tmu-v2-smart/smart_config.json
+__pycache__/
+*.pyc
+dist/
+build/
+*.spec

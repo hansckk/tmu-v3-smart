@@ -1,0 +1,1716 @@
+2026-09-16 07:49:32,098 | INFO: Starting App
+2026-09-16 07:49:32,106 | INFO: Initializing App
+2026-09-16 07:49:32,106 | DEBUG: Start data_handler.py
+2026-09-16 07:49:32,106 | DEBUG: Starting process: data_handler.py
+2026-09-16 07:49:32,107 | DEBUG: Process data_handler.py started with PID: 2456
+2026-09-16 07:49:32,108 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 07:49:33,108 | DEBUG: Starting process: module_IO.py
+2026-09-16 07:49:33,109 | DEBUG: Process module_IO.py started with PID: 2457
+2026-09-16 07:49:33,110 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 07:49:34,110 | DEBUG: Starting process: displayGUI.py
+2026-09-16 07:49:34,111 | DEBUG: Process displayGUI.py started with PID: 2461
+2026-09-16 07:49:34,111 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 07:49:35,112 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 07:49:35,113 | DEBUG: Process modbusTcpServer.py started with PID: 2463
+2026-09-16 07:49:35,113 | DEBUG: Init GUI Tkinter
+2026-09-16 07:49:35,380 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 07:49:35,382 | DEBUG: Module IO | Initialize program
+2026-09-16 07:49:35,383 | DEBUG: Module IO | Start loop
+2026-09-16 07:49:35,384 | DEBUG: Display GUI | Initialize program
+2026-09-16 07:49:35,388 | DEBUG: Display GUI | Start Loop
+2026-09-16 07:49:35,489 | DEBUG: Modbus Server | Initialize program
+2026-09-16 07:49:35,489 | DEBUG: Modbus Server | Start Loop
+2026-09-16 07:49:53,923 | DEBUG: Data Handler | Initialize Program
+2026-09-16 07:49:53,923 | DEBUG: Data Handler | Start Loop
+2026-09-16 07:49:58,147 | DEBUG: Child Output: 07:49:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:50:01,606 | DEBUG: Child Output: 07:50:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:50:26,774 | DEBUG: Child Output: 07:50:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:50:30,654 | DEBUG: Child Output: 07:50:30 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:50:52,421 | DEBUG: Child Output: 07:50:52 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:51:17,618 | DEBUG: Child Output: 07:51:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:51:42,801 | DEBUG: Child Output: 07:51:42 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 07:51:46,694 | DEBUG: Child Output: 07:51:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:51:56,118 | DEBUG: Child Output: 07:51:56 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:51:56,122 | DEBUG: Child Output: 07:51:56 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:51:56,122 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:51:56,122 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:51:56,122 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:51:56,122 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:51:56,122 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:51:56,122 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:51:56,123 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:51:56,123 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:52:11,647 | DEBUG: Child Output: 07:52:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:52:15,102 | DEBUG: Child Output: 07:52:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:52:40,077 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 07:52:40,077 | DEBUG: Data Handler | Backup Excel
+2026-09-16 07:52:40,077 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 07:52:40,078 | DEBUG: Data Handler | Excel Size 10262
+2026-09-16 07:52:40,078 | DEBUG: Data Handler | Backup Size 7244
+2026-09-16 07:52:40,078 | DEBUG: Data Handler | Save Success
+2026-09-16 07:52:44,299 | DEBUG: Child Output: 07:52:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:53:08,917 | DEBUG: Child Output: 07:53:08 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a
+2026-09-16 07:53:09,149 | DEBUG: Child Output: 07:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 07:53:09,379 | DEBUG: Child Output: 07:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa
+2026-09-16 07:53:09,609 | DEBUG: Child Output: 07:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 07:53:09,840 | DEBUG: Child Output: 07:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 07:53:10,068 | DEBUG: Child Output: 07:53:10 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 07:53:19,720 | DEBUG: Child Output: 07:53:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:53:25,935 | DEBUG: Child Output: 07:53:25 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:53:25,936 | DEBUG: Child Output: 07:53:25 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:53:25,936 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:53:25,936 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:53:25,936 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:53:25,936 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:53:25,936 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:53:25,937 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:53:25,937 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:53:25,937 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:53:29,173 | DEBUG: Child Output: 07:53:29 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:53:29,175 | DEBUG: Child Output: 07:53:29 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:53:29,175 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:53:29,175 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:53:29,176 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:53:29,177 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:53:29,177 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:53:29,178 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:53:29,178 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:53:29,178 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:53:34,490 | DEBUG: Child Output: 07:53:34 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 07:53:41,367 | DEBUG: Child Output: 07:53:41 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:53:54,001 | DEBUG: Child Output: 07:53:54 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:53:54,002 | DEBUG: Child Output: 07:53:54 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:53:54,003 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:53:54,003 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:53:54,003 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:53:54,003 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:53:54,003 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:53:54,003 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:53:54,003 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:53:54,003 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:54:05,100 | DEBUG: Child Output: 07:54:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:54:08,959 | DEBUG: Child Output: 07:54:08 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:54:30,483 | DEBUG: Child Output: 07:54:30 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 07:54:33,941 | DEBUG: Child Output: 07:54:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:54:37,820 | DEBUG: Child Output: 07:54:37 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:54:44,035 | DEBUG: Child Output: 07:54:44 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:54:44,035 | DEBUG: Child Output: 07:54:44 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:54:44,035 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:54:44,035 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:54:44,036 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:54:44,036 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:54:44,036 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:54:44,036 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:54:44,036 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:54:44,036 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:55:03,025 | DEBUG: Child Output: 07:55:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:55:24,767 | DEBUG: Child Output: 07:55:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:55:28,226 | DEBUG: Child Output: 07:55:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:55:31,436 | DEBUG: Child Output: 07:55:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 07:55:51,968 | DEBUG: Child Output: 07:55:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:55:55,768 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 07:55:55,768 | DEBUG: Data Handler | Backup Excel
+2026-09-16 07:55:55,768 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 07:55:55,769 | DEBUG: Data Handler | Excel Size 13012
+2026-09-16 07:55:55,769 | DEBUG: Data Handler | Backup Size 10262
+2026-09-16 07:55:55,769 | DEBUG: Data Handler | Save Success
+2026-09-16 07:55:59,983 | DEBUG: Child Output: 07:55:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 07:56:23,814 | DEBUG: Child Output: 07:56:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:56:48,911 | DEBUG: Child Output: 07:56:48 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a
+2026-09-16 07:56:49,141 | DEBUG: Child Output: 07:56:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 07:56:49,371 | DEBUG: Child Output: 07:56:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa
+2026-09-16 07:56:49,598 | DEBUG: Child Output: 07:56:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 07:57:02,557 | DEBUG: Child Output: 07:57:02 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 07:57:02,558 | DEBUG: Child Output: 07:57:02 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:57:02,558 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 07:57:02,558 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 07:57:02,558 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 07:57:02,559 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 07:57:02,559 | DEBUG: Child Output: self._process(callback)
+2026-09-16 07:57:02,559 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 07:57:02,559 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 07:57:02,559 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 07:57:31,223 | DEBUG: Child Output: 07:57:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:57:31,682 | DEBUG: Child Output: 07:57:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:57:53,420 | DEBUG: Child Output: 07:57:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:57:56,877 | DEBUG: Child Output: 07:57:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:58:00,087 | DEBUG: Child Output: 07:58:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 07:58:25,240 | DEBUG: Child Output: 07:58:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:58:25,698 | DEBUG: Child Output: 07:58:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:58:28,907 | DEBUG: Child Output: 07:58:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 07:58:43,447 | DEBUG: Child Output: 07:58:43 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 07:58:46,656 | DEBUG: Child Output: 07:58:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 07:58:54,084 | DEBUG: Child Output: 07:58:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:58:54,543 | DEBUG: Child Output: 07:58:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:58:57,753 | DEBUG: Child Output: 07:58:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 07:59:15,663 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 07:59:15,664 | DEBUG: Data Handler | Backup Excel
+2026-09-16 07:59:15,664 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 07:59:15,664 | DEBUG: Data Handler | Excel Size 16168
+2026-09-16 07:59:15,664 | DEBUG: Data Handler | Backup Size 13012
+2026-09-16 07:59:15,664 | DEBUG: Data Handler | Save Success
+2026-09-16 07:59:19,879 | DEBUG: Child Output: 07:59:19 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 07:59:23,335 | DEBUG: Child Output: 07:59:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 07:59:26,545 | DEBUG: Child Output: 07:59:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:59:29,756 | DEBUG: Child Output: 07:59:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 07:59:54,475 | DEBUG: Child Output: 07:59:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 07:59:54,936 | DEBUG: Child Output: 07:59:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:00:35,935 | DEBUG: Child Output: 08:00:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:00:36,395 | DEBUG: Child Output: 08:00:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:00:58,114 | DEBUG: Child Output: 08:00:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:01:23,293 | DEBUG: Child Output: 08:01:23 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:01:27,190 | DEBUG: Child Output: 08:01:27 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:01:33,635 | DEBUG: Child Output: 08:01:33 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:01:33,636 | DEBUG: Child Output: 08:01:33 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:01:33,637 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:01:33,637 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:01:33,637 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:01:33,637 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:01:33,637 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:01:33,637 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:01:33,638 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:01:33,638 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:01:49,359 | DEBUG: Child Output: 08:01:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:01:49,818 | DEBUG: Child Output: 08:01:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:01:53,028 | DEBUG: Child Output: 08:01:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:02:14,539 | DEBUG: Child Output: 08:02:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:02:14,998 | DEBUG: Child Output: 08:02:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:02:18,208 | DEBUG: Child Output: 08:02:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Excel Size 19234
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Backup Size 16168
+2026-09-16 08:02:39,882 | DEBUG: Data Handler | Save Success
+2026-09-16 08:02:44,097 | DEBUG: Child Output: 08:02:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:02:44,556 | DEBUG: Child Output: 08:02:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:02:47,768 | DEBUG: Child Output: 08:02:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:03:09,293 | DEBUG: Child Output: 08:03:09 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:03:12,748 | DEBUG: Child Output: 08:03:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:03:16,610 | DEBUG: Child Output: 08:03:16 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:04:00,192 | DEBUG: Child Output: 08:04:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:04:00,653 | DEBUG: Child Output: 08:04:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:04:22,380 | DEBUG: Child Output: 08:04:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:04:22,840 | DEBUG: Child Output: 08:04:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:04:44,555 | DEBUG: Child Output: 08:04:44 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:04:48,014 | DEBUG: Child Output: 08:04:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:05:00,871 | DEBUG: Child Output: 08:05:00 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:05:00,872 | DEBUG: Child Output: 08:05:00 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:05:00,873 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:05:00,873 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:05:00,873 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:05:00,873 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:05:00,873 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:05:00,873 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:05:00,873 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:05:00,873 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:05:16,412 | DEBUG: Child Output: 08:05:16 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:05:19,867 | DEBUG: Child Output: 08:05:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:05:23,078 | DEBUG: Child Output: 08:05:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:05:44,590 | DEBUG: Child Output: 08:05:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:05:45,049 | DEBUG: Child Output: 08:05:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:06:03,245 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:06:03,246 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:06:03,246 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:06:03,246 | DEBUG: Data Handler | Excel Size 22336
+2026-09-16 08:06:03,246 | DEBUG: Data Handler | Backup Size 19234
+2026-09-16 08:06:03,246 | DEBUG: Data Handler | Save Success
+2026-09-16 08:06:07,460 | DEBUG: Child Output: 08:06:07 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:06:11,357 | DEBUG: Child Output: 08:06:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:06:17,797 | DEBUG: Child Output: 08:06:17 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:06:17,798 | DEBUG: Child Output: 08:06:17 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:06:17,798 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:06:17,798 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:06:17,798 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:06:17,798 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:06:17,798 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:06:17,798 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:06:17,798 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:06:17,799 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:06:33,531 | DEBUG: Child Output: 08:06:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:06:33,989 | DEBUG: Child Output: 08:06:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:07:04,098 | DEBUG: Child Output: 08:07:04 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:07:04,327 | DEBUG: Child Output: 08:07:04 WARNING serial:261 Cleanup recv buffer before send: 0x61
+2026-09-16 08:07:42,303 | DEBUG: Child Output: 08:07:42 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:07:42,304 | DEBUG: Child Output: 08:07:42 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:07:42,304 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:07:42,304 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:07:42,304 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:07:42,305 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:07:42,305 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:07:42,305 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:07:42,305 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:07:42,305 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:07:59,814 | DEBUG: Child Output: 08:07:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:08:21,537 | DEBUG: Child Output: 08:08:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:08:22,000 | DEBUG: Child Output: 08:08:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:08:44,190 | DEBUG: Child Output: 08:08:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:09:05,929 | DEBUG: Child Output: 08:09:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:09:06,388 | DEBUG: Child Output: 08:09:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:09:09,599 | DEBUG: Child Output: 08:09:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:09:27,637 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:09:27,637 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:09:27,638 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:09:27,638 | DEBUG: Data Handler | Excel Size 25283
+2026-09-16 08:09:27,638 | DEBUG: Data Handler | Backup Size 22336
+2026-09-16 08:09:27,638 | DEBUG: Data Handler | Save Success
+2026-09-16 08:09:31,865 | DEBUG: Child Output: 08:09:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:09:32,325 | DEBUG: Child Output: 08:09:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:09:54,051 | DEBUG: Child Output: 08:09:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:09:54,510 | DEBUG: Child Output: 08:09:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:09:57,725 | DEBUG: Child Output: 08:09:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:10:21,672 | DEBUG: Child Output: 08:10:21 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 08:10:21,903 | DEBUG: Child Output: 08:10:21 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:10:32,005 | DEBUG: Child Output: 08:10:32 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:10:32,007 | DEBUG: Child Output: 08:10:32 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:10:32,007 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:10:32,007 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:10:32,007 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:10:32,007 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:10:32,007 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:10:32,007 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:10:32,008 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:10:32,008 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:10:32,215 | DEBUG: Child Output: 08:10:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:11:14,460 | DEBUG: Child Output: 08:11:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:11:14,921 | DEBUG: Child Output: 08:11:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:11:18,132 | DEBUG: Child Output: 08:11:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:11:39,636 | DEBUG: Child Output: 08:11:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:11:40,097 | DEBUG: Child Output: 08:11:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:12:01,813 | DEBUG: Child Output: 08:12:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:12:02,272 | DEBUG: Child Output: 08:12:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:12:05,486 | DEBUG: Child Output: 08:12:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:12:26,994 | DEBUG: Child Output: 08:12:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:12:27,454 | DEBUG: Child Output: 08:12:27 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:12:45,736 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:12:45,736 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:12:45,737 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:12:45,737 | DEBUG: Data Handler | Excel Size 28222
+2026-09-16 08:12:45,737 | DEBUG: Data Handler | Backup Size 25283
+2026-09-16 08:12:45,737 | DEBUG: Data Handler | Save Success
+2026-09-16 08:12:49,959 | DEBUG: Child Output: 08:12:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:12:53,416 | DEBUG: Child Output: 08:12:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:12:56,626 | DEBUG: Child Output: 08:12:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:13:21,821 | DEBUG: Child Output: 08:13:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:13:22,279 | DEBUG: Child Output: 08:13:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:13:25,489 | DEBUG: Child Output: 08:13:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:13:49,437 | DEBUG: Child Output: 08:13:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 08:13:49,667 | DEBUG: Child Output: 08:13:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 08:13:49,897 | DEBUG: Child Output: 08:13:49 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:13:53,354 | DEBUG: Child Output: 08:13:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:13:59,774 | DEBUG: Child Output: 08:13:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:14:02,984 | DEBUG: Child Output: 08:14:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:14:23,505 | DEBUG: Child Output: 08:14:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:15:19,860 | DEBUG: Child Output: 08:15:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:15:20,320 | DEBUG: Child Output: 08:15:20 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:15:23,530 | DEBUG: Child Output: 08:15:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:15:45,049 | DEBUG: Child Output: 08:15:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:15:45,509 | DEBUG: Child Output: 08:15:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:16:03,856 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:16:03,856 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:16:03,856 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:16:03,856 | DEBUG: Data Handler | Excel Size 30775
+2026-09-16 08:16:03,857 | DEBUG: Data Handler | Backup Size 28222
+2026-09-16 08:16:03,857 | DEBUG: Data Handler | Save Success
+2026-09-16 08:16:08,071 | DEBUG: Child Output: 08:16:08 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:16:11,965 | DEBUG: Child Output: 08:16:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:16:21,389 | DEBUG: Child Output: 08:16:21 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:16:21,390 | DEBUG: Child Output: 08:16:21 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:16:21,391 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:16:21,391 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:16:21,391 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:16:21,391 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:16:21,391 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:16:21,391 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:16:21,391 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:16:21,391 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:16:36,931 | DEBUG: Child Output: 08:16:36 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:16:40,825 | DEBUG: Child Output: 08:16:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:16:47,264 | DEBUG: Child Output: 08:16:47 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:16:47,264 | DEBUG: Child Output: 08:16:47 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:16:47,264 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:16:47,265 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:16:47,265 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:16:47,265 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:16:47,265 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:16:47,265 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:16:47,265 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:16:47,265 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:17:25,431 | DEBUG: Child Output: 08:17:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:17:25,890 | DEBUG: Child Output: 08:17:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:17:29,100 | DEBUG: Child Output: 08:17:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:17:54,305 | DEBUG: Child Output: 08:17:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:17:54,764 | DEBUG: Child Output: 08:17:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:17:57,974 | DEBUG: Child Output: 08:17:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:18:19,480 | DEBUG: Child Output: 08:18:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:18:19,939 | DEBUG: Child Output: 08:18:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:18:41,916 | DEBUG: Child Output: 08:18:41 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:18:45,374 | DEBUG: Child Output: 08:18:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:19:06,725 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:19:06,726 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:19:06,726 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:19:06,726 | DEBUG: Data Handler | Excel Size 33338
+2026-09-16 08:19:06,726 | DEBUG: Data Handler | Backup Size 30775
+2026-09-16 08:19:06,726 | DEBUG: Data Handler | Save Success
+2026-09-16 08:19:10,941 | DEBUG: Child Output: 08:19:10 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:19:11,400 | DEBUG: Child Output: 08:19:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:19:33,117 | DEBUG: Child Output: 08:19:33 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:19:37,013 | DEBUG: Child Output: 08:19:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:19:43,451 | DEBUG: Child Output: 08:19:43 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:19:43,452 | DEBUG: Child Output: 08:19:43 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:19:43,452 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:19:43,452 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:19:43,453 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:19:43,453 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:19:43,453 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:19:43,453 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:19:43,453 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:19:43,453 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:19:59,208 | DEBUG: Child Output: 08:19:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:19:59,666 | DEBUG: Child Output: 08:19:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:20:26,808 | DEBUG: Child Output: 08:20:26 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:20:30,702 | DEBUG: Child Output: 08:20:30 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:20:33,914 | DEBUG: Child Output: 08:20:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:20:37,124 | DEBUG: Child Output: 08:20:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:20:55,645 | DEBUG: Child Output: 08:20:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:20:56,104 | DEBUG: Child Output: 08:20:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:20:59,315 | DEBUG: Child Output: 08:20:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:21:06,981 | DEBUG: Child Output: 08:21:06 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:21:18,295 | DEBUG: Child Output: 08:21:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:21:18,758 | DEBUG: Child Output: 08:21:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:21:40,472 | DEBUG: Child Output: 08:21:40 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:21:44,366 | DEBUG: Child Output: 08:21:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:21:53,789 | DEBUG: Child Output: 08:21:53 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:21:53,790 | DEBUG: Child Output: 08:21:53 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:21:53,791 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:21:53,791 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:21:53,791 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:21:53,791 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:21:53,791 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:21:53,791 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:21:53,791 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:21:53,791 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:22:09,329 | DEBUG: Child Output: 08:22:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:22:09,787 | DEBUG: Child Output: 08:22:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:22:12,997 | DEBUG: Child Output: 08:22:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:22:31,205 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:22:31,206 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:22:31,206 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:22:31,206 | DEBUG: Data Handler | Excel Size 36279
+2026-09-16 08:22:31,206 | DEBUG: Data Handler | Backup Size 33338
+2026-09-16 08:22:31,206 | DEBUG: Data Handler | Save Success
+2026-09-16 08:22:35,420 | DEBUG: Child Output: 08:22:35 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:22:39,312 | DEBUG: Child Output: 08:22:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:22:45,752 | DEBUG: Child Output: 08:22:45 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:22:45,753 | DEBUG: Child Output: 08:22:45 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:22:45,753 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:22:45,753 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:22:45,754 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:22:45,754 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:22:45,754 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:22:45,754 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:22:45,754 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:22:45,754 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:23:01,487 | DEBUG: Child Output: 08:23:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:23:01,946 | DEBUG: Child Output: 08:23:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:23:05,156 | DEBUG: Child Output: 08:23:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:23:26,665 | DEBUG: Child Output: 08:23:26 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:23:30,122 | DEBUG: Child Output: 08:23:30 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:23:33,332 | DEBUG: Child Output: 08:23:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:23:36,544 | DEBUG: Child Output: 08:23:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:24:03,234 | DEBUG: Child Output: 08:24:03 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:24:03,463 | DEBUG: Child Output: 08:24:03 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa
+2026-09-16 08:24:03,693 | DEBUG: Child Output: 08:24:03 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 08:24:03,923 | DEBUG: Child Output: 08:24:03 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 08:24:04,153 | DEBUG: Child Output: 08:24:04 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:24:17,011 | DEBUG: Child Output: 08:24:17 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:24:17,012 | DEBUG: Child Output: 08:24:17 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:24:17,012 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:24:17,012 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:24:17,013 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:24:17,013 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:24:17,013 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:24:17,013 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:24:17,013 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:24:17,013 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:24:20,245 | DEBUG: Child Output: 08:24:20 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:24:20,246 | DEBUG: Child Output: 08:24:20 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:24:20,246 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:24:20,246 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:24:20,247 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:24:20,247 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:24:20,247 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:24:20,247 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:24:20,247 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:24:20,247 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:24:27,885 | DEBUG: Child Output: 08:24:27 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:24:31,778 | DEBUG: Child Output: 08:24:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:24:34,988 | DEBUG: Child Output: 08:24:34 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:24:38,196 | DEBUG: Child Output: 08:24:38 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:24:56,708 | DEBUG: Child Output: 08:24:56 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:25:00,604 | DEBUG: Child Output: 08:25:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:25:10,027 | DEBUG: Child Output: 08:25:10 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:25:10,030 | DEBUG: Child Output: 08:25:10 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:25:10,030 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:25:10,030 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:25:10,030 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:25:10,031 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:25:10,031 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:25:10,031 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:25:10,031 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:25:10,032 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:25:25,560 | DEBUG: Child Output: 08:25:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:25:26,019 | DEBUG: Child Output: 08:25:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:25:47,464 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:25:47,464 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:25:47,464 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:25:47,464 | DEBUG: Data Handler | Excel Size 38844
+2026-09-16 08:25:47,465 | DEBUG: Data Handler | Backup Size 36279
+2026-09-16 08:25:47,465 | DEBUG: Data Handler | Save Success
+2026-09-16 08:25:51,679 | DEBUG: Child Output: 08:25:51 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:25:55,136 | DEBUG: Child Output: 08:25:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:25:58,347 | DEBUG: Child Output: 08:25:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:26:01,558 | DEBUG: Child Output: 08:26:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:26:26,284 | DEBUG: Child Output: 08:26:26 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:26:30,175 | DEBUG: Child Output: 08:26:30 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:26:33,385 | DEBUG: Child Output: 08:26:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:26:36,596 | DEBUG: Child Output: 08:26:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:26:55,112 | DEBUG: Child Output: 08:26:55 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:26:59,006 | DEBUG: Child Output: 08:26:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:27:08,429 | DEBUG: Child Output: 08:27:08 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:27:08,431 | DEBUG: Child Output: 08:27:08 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:27:08,432 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:27:08,432 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:27:08,432 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:27:08,432 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:27:08,432 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:27:08,433 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:27:08,433 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:27:08,433 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:27:43,789 | DEBUG: Child Output: 08:27:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:27:44,252 | DEBUG: Child Output: 08:27:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:27:47,462 | DEBUG: Child Output: 08:27:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:28:08,968 | DEBUG: Child Output: 08:28:08 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:28:09,429 | DEBUG: Child Output: 08:28:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:28:31,617 | DEBUG: Child Output: 08:28:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:28:50,087 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:28:50,087 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:28:50,087 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:28:50,087 | DEBUG: Data Handler | Excel Size 41382
+2026-09-16 08:28:50,088 | DEBUG: Data Handler | Backup Size 38844
+2026-09-16 08:28:50,088 | DEBUG: Data Handler | Save Success
+2026-09-16 08:28:58,206 | DEBUG: Child Output: 08:28:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:29:07,631 | DEBUG: Child Output: 08:29:07 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:29:07,633 | DEBUG: Child Output: 08:29:07 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:29:07,634 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:29:07,634 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:29:07,635 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:29:07,635 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:29:07,635 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:29:07,635 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:29:07,636 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:29:07,636 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:29:23,170 | DEBUG: Child Output: 08:29:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:29:23,630 | DEBUG: Child Output: 08:29:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:29:26,841 | DEBUG: Child Output: 08:29:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:29:34,516 | DEBUG: Child Output: 08:29:34 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:29:35,410 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 08:29:37,679 | INFO: Starting App
+2026-09-16 08:29:37,704 | INFO: Initializing App
+2026-09-16 08:29:37,705 | DEBUG: Start data_handler.py
+2026-09-16 08:29:37,705 | DEBUG: Starting process: data_handler.py
+2026-09-16 08:29:37,706 | DEBUG: Process data_handler.py started with PID: 11044
+2026-09-16 08:29:37,707 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 08:29:38,707 | DEBUG: Starting process: module_IO.py
+2026-09-16 08:29:38,709 | DEBUG: Process module_IO.py started with PID: 11045
+2026-09-16 08:29:38,709 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 08:29:39,710 | DEBUG: Starting process: displayGUI.py
+2026-09-16 08:29:39,711 | DEBUG: Process displayGUI.py started with PID: 11056
+2026-09-16 08:29:39,711 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 08:29:40,712 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 08:29:40,717 | DEBUG: Process modbusTcpServer.py started with PID: 11074
+2026-09-16 08:29:40,718 | DEBUG: Init GUI Tkinter
+2026-09-16 08:29:41,078 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 08:29:41,080 | DEBUG: Module IO | Initialize program
+2026-09-16 08:29:41,081 | DEBUG: Module IO | Start loop
+2026-09-16 08:29:41,081 | DEBUG: Display GUI | Initialize program
+2026-09-16 08:29:41,082 | DEBUG: Display GUI | Start Loop
+2026-09-16 08:29:41,226 | DEBUG: Modbus Server | Initialize program
+2026-09-16 08:29:41,230 | DEBUG: Modbus Server | Start Loop
+2026-09-16 08:30:03,319 | DEBUG: Data Handler | Initialize Program
+2026-09-16 08:30:03,319 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 08:30:03,319 | DEBUG: Data Handler | Start Loop
+2026-09-16 08:30:29,213 | DEBUG: Child Output: 08:30:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:30:32,425 | DEBUG: Child Output: 08:30:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:30:38,639 | DEBUG: Child Output: 08:30:38 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:30:38,642 | DEBUG: Child Output: 08:30:38 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:30:38,643 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:30:38,643 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:30:38,643 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:30:38,643 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:30:38,643 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:30:38,643 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:30:38,643 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:30:38,643 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:31:07,700 | DEBUG: Child Output: 08:31:07 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 08:31:11,847 | DEBUG: Child Output: 08:31:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:31:15,055 | DEBUG: Child Output: 08:31:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:31:21,270 | DEBUG: Child Output: 08:31:21 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:31:21,271 | DEBUG: Child Output: 08:31:21 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:31:21,271 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:31:21,271 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:31:21,271 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:31:21,272 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:31:21,272 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:31:21,272 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:31:21,272 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:31:21,272 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:32:00,517 | DEBUG: Child Output: 08:32:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:32:00,975 | DEBUG: Child Output: 08:32:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:32:04,186 | DEBUG: Child Output: 08:32:04 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:32:25,695 | DEBUG: Child Output: 08:32:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:32:26,154 | DEBUG: Child Output: 08:32:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:32:41,082 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 08:32:43,341 | INFO: Starting App
+2026-09-16 08:32:43,356 | INFO: Initializing App
+2026-09-16 08:32:43,357 | DEBUG: Start data_handler.py
+2026-09-16 08:32:43,358 | DEBUG: Starting process: data_handler.py
+2026-09-16 08:32:43,365 | DEBUG: Process data_handler.py started with PID: 12511
+2026-09-16 08:32:43,365 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 08:32:44,365 | DEBUG: Starting process: module_IO.py
+2026-09-16 08:32:44,367 | DEBUG: Process module_IO.py started with PID: 12516
+2026-09-16 08:32:44,367 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 08:32:45,368 | DEBUG: Starting process: displayGUI.py
+2026-09-16 08:32:45,369 | DEBUG: Process displayGUI.py started with PID: 12524
+2026-09-16 08:32:45,370 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 08:32:46,370 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 08:32:46,371 | DEBUG: Process modbusTcpServer.py started with PID: 12528
+2026-09-16 08:32:46,371 | DEBUG: Init GUI Tkinter
+2026-09-16 08:32:46,629 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 08:32:46,631 | DEBUG: Module IO | Initialize program
+2026-09-16 08:32:46,632 | DEBUG: Module IO | Start loop
+2026-09-16 08:32:46,632 | DEBUG: Display GUI | Initialize program
+2026-09-16 08:32:46,634 | DEBUG: Display GUI | Start Loop
+2026-09-16 08:32:46,715 | DEBUG: Modbus Server | Initialize program
+2026-09-16 08:32:46,716 | DEBUG: Modbus Server | Start Loop
+2026-09-16 08:33:09,192 | DEBUG: Data Handler | Initialize Program
+2026-09-16 08:33:09,192 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 08:33:09,192 | DEBUG: Data Handler | Start Loop
+2026-09-16 08:33:41,593 | DEBUG: Child Output: 08:33:41 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:33:45,051 | DEBUG: Child Output: 08:33:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:33:48,507 | DEBUG: Child Output: 08:33:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:33:51,718 | DEBUG: Child Output: 08:33:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:34:13,227 | DEBUG: Child Output: 08:34:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:34:13,687 | DEBUG: Child Output: 08:34:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:34:57,490 | DEBUG: Child Output: 08:34:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:34:57,950 | DEBUG: Child Output: 08:34:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:35:19,676 | DEBUG: Child Output: 08:35:19 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:35:23,136 | DEBUG: Child Output: 08:35:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:35:27,024 | DEBUG: Child Output: 08:35:27 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:35:33,240 | DEBUG: Child Output: 08:35:33 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:35:33,240 | DEBUG: Child Output: 08:35:33 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:35:33,240 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:35:33,240 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:35:33,241 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:35:33,241 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:35:33,241 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:35:33,241 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:35:33,241 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:35:33,241 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:35:48,774 | DEBUG: Child Output: 08:35:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:35:49,234 | DEBUG: Child Output: 08:35:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Excel Size 44299
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Backup Size 41382
+2026-09-16 08:36:07,812 | DEBUG: Data Handler | Save Success
+2026-09-16 08:36:12,502 | DEBUG: Child Output: 08:36:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:36:34,222 | DEBUG: Child Output: 08:36:34 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:36:38,117 | DEBUG: Child Output: 08:36:38 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:36:44,598 | DEBUG: Child Output: 08:36:44 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:36:44,599 | DEBUG: Child Output: 08:36:44 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:36:44,601 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:36:44,603 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:36:44,604 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:36:44,606 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:36:44,608 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:36:44,608 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:36:44,609 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:36:44,609 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:36:46,635 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 08:36:48,946 | INFO: Starting App
+2026-09-16 08:36:48,974 | INFO: Initializing App
+2026-09-16 08:36:48,974 | DEBUG: Start data_handler.py
+2026-09-16 08:36:48,975 | DEBUG: Starting process: data_handler.py
+2026-09-16 08:36:48,985 | DEBUG: Process data_handler.py started with PID: 14583
+2026-09-16 08:36:48,985 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 08:36:49,985 | DEBUG: Starting process: module_IO.py
+2026-09-16 08:36:49,993 | DEBUG: Process module_IO.py started with PID: 14584
+2026-09-16 08:36:49,993 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 08:36:50,993 | DEBUG: Starting process: displayGUI.py
+2026-09-16 08:36:50,994 | DEBUG: Process displayGUI.py started with PID: 14593
+2026-09-16 08:36:50,995 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 08:36:51,995 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 08:36:51,996 | DEBUG: Process modbusTcpServer.py started with PID: 14598
+2026-09-16 08:36:51,996 | DEBUG: Init GUI Tkinter
+2026-09-16 08:36:52,254 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 08:36:52,256 | DEBUG: Child Output: 08:36:51 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a
+2026-09-16 08:36:52,256 | DEBUG: Child Output: 08:36:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 08:36:52,257 | DEBUG: Display GUI | Initialize program
+2026-09-16 08:36:52,257 | DEBUG: Display GUI | Start Loop
+2026-09-16 08:36:52,257 | DEBUG: Module IO | Initialize program
+2026-09-16 08:36:52,258 | DEBUG: Module IO | Start loop
+2026-09-16 08:36:52,339 | DEBUG: Modbus Server | Initialize program
+2026-09-16 08:36:52,339 | DEBUG: Modbus Server | Start Loop
+2026-09-16 08:37:00,699 | DEBUG: Child Output: 08:37:00 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:37:00,700 | DEBUG: Child Output: 08:37:00 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:37:00,700 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:37:00,701 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:37:00,701 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:37:00,701 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:37:00,701 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:37:00,701 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:37:00,701 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:37:00,702 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:37:00,907 | DEBUG: Child Output: 08:37:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:37:07,122 | DEBUG: Child Output: 08:37:07 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:37:07,123 | DEBUG: Child Output: 08:37:07 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:37:07,123 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:37:07,123 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:37:07,123 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:37:07,124 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:37:07,124 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:37:07,124 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:37:07,124 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:37:07,124 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:37:13,763 | DEBUG: Data Handler | Initialize Program
+2026-09-16 08:37:13,764 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 08:37:13,765 | DEBUG: Data Handler | Start Loop
+2026-09-16 08:38:15,778 | DEBUG: Child Output: 08:38:15 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a
+2026-09-16 08:38:16,008 | DEBUG: Child Output: 08:38:16 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:38:16,238 | DEBUG: Child Output: 08:38:16 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa
+2026-09-16 08:38:16,468 | DEBUG: Child Output: 08:38:16 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 08:38:16,698 | DEBUG: Child Output: 08:38:16 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 08:38:16,925 | DEBUG: Child Output: 08:38:16 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:38:29,560 | DEBUG: Child Output: 08:38:29 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:38:29,561 | DEBUG: Child Output: 08:38:29 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:38:29,561 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:38:29,561 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:38:29,561 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:38:29,561 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:38:29,561 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:38:29,561 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:38:29,562 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:38:29,562 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:38:32,790 | DEBUG: Child Output: 08:38:32 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:38:32,791 | DEBUG: Child Output: 08:38:32 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:38:32,791 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:38:32,791 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:38:32,792 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:38:32,792 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:38:32,792 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:38:32,792 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:38:32,793 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:38:32,793 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:38:40,435 | DEBUG: Child Output: 08:38:40 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:38:44,330 | DEBUG: Child Output: 08:38:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:38:53,982 | DEBUG: Child Output: 08:38:53 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:38:53,982 | DEBUG: Child Output: 08:38:53 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:38:53,982 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:38:53,982 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:38:53,983 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:38:53,983 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:38:53,983 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:38:53,983 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:38:53,983 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:38:53,983 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:39:08,042 | DEBUG: Child Output: 08:39:08 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:39:11,500 | DEBUG: Child Output: 08:39:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:39:14,710 | DEBUG: Child Output: 08:39:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:39:39,886 | DEBUG: Child Output: 08:39:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:39:40,346 | DEBUG: Child Output: 08:39:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:39:43,555 | DEBUG: Child Output: 08:39:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Excel Size 47016
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Backup Size 44299
+2026-09-16 08:40:01,920 | DEBUG: Data Handler | Save Success
+2026-09-16 08:40:06,141 | DEBUG: Child Output: 08:40:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:40:09,597 | DEBUG: Child Output: 08:40:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:40:12,808 | DEBUG: Child Output: 08:40:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:40:40,747 | DEBUG: Child Output: 08:40:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:40:44,201 | DEBUG: Child Output: 08:40:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:40:47,412 | DEBUG: Child Output: 08:40:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:40:55,087 | DEBUG: Child Output: 08:40:55 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:41:15,383 | DEBUG: Child Output: 08:41:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:41:40,022 | DEBUG: Child Output: 08:41:40 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:41:43,916 | DEBUG: Child Output: 08:41:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:41:50,356 | DEBUG: Child Output: 08:41:50 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:41:50,357 | DEBUG: Child Output: 08:41:50 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:41:50,357 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:41:50,357 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:41:50,357 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:41:50,357 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:41:50,357 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:41:50,358 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:41:50,358 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:41:50,358 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:42:06,108 | DEBUG: Child Output: 08:42:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:42:31,297 | DEBUG: Child Output: 08:42:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:42:56,497 | DEBUG: Child Output: 08:42:56 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:43:00,392 | DEBUG: Child Output: 08:43:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:43:09,816 | DEBUG: Child Output: 08:43:09 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:43:09,817 | DEBUG: Child Output: 08:43:09 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:43:09,817 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:43:09,817 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:43:09,818 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:43:09,818 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:43:09,818 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:43:09,818 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:43:09,818 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:43:09,818 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:43:22,205 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:43:22,205 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:43:22,205 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:43:22,205 | DEBUG: Data Handler | Excel Size 49671
+2026-09-16 08:43:22,205 | DEBUG: Data Handler | Backup Size 47016
+2026-09-16 08:43:22,206 | DEBUG: Data Handler | Save Success
+2026-09-16 08:43:26,452 | DEBUG: Child Output: 08:43:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:43:29,908 | DEBUG: Child Output: 08:43:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:43:33,119 | DEBUG: Child Output: 08:43:33 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:43:58,279 | DEBUG: Child Output: 08:43:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:43:58,744 | DEBUG: Child Output: 08:43:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:44:20,457 | DEBUG: Child Output: 08:44:20 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:44:24,354 | DEBUG: Child Output: 08:44:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:44:34,006 | DEBUG: Child Output: 08:44:34 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:44:34,008 | DEBUG: Child Output: 08:44:34 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:44:34,009 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:44:34,009 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:44:34,010 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:44:34,010 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:44:34,010 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:44:34,010 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:44:34,011 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:44:34,011 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:44:48,061 | DEBUG: Child Output: 08:44:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:44:51,520 | DEBUG: Child Output: 08:44:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:44:54,729 | DEBUG: Child Output: 08:44:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:45:28,764 | DEBUG: Child Output: 08:45:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:46:17,428 | DEBUG: Child Output: 08:46:17 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:46:21,322 | DEBUG: Child Output: 08:46:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:46:27,762 | DEBUG: Child Output: 08:46:27 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:46:27,764 | DEBUG: Child Output: 08:46:27 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:46:27,765 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:46:27,765 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:46:27,765 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:46:27,766 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:46:27,766 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:46:27,766 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:46:27,766 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:46:27,766 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:46:40,449 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:46:40,450 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:46:40,450 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:46:40,450 | DEBUG: Data Handler | Excel Size 52314
+2026-09-16 08:46:40,450 | DEBUG: Data Handler | Backup Size 49671
+2026-09-16 08:46:40,450 | DEBUG: Data Handler | Save Success
+2026-09-16 08:46:44,665 | DEBUG: Child Output: 08:46:44 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:46:48,556 | DEBUG: Child Output: 08:46:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:46:54,975 | DEBUG: Child Output: 08:46:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:47:13,486 | DEBUG: Child Output: 08:47:13 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:47:17,380 | DEBUG: Child Output: 08:47:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:47:23,821 | DEBUG: Child Output: 08:47:23 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:47:23,824 | DEBUG: Child Output: 08:47:23 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:47:23,825 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:47:23,825 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:47:23,826 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:47:23,827 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:47:23,827 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:47:23,828 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:47:23,828 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:47:23,828 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:47:39,550 | DEBUG: Child Output: 08:47:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:47:40,012 | DEBUG: Child Output: 08:47:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:48:04,737 | DEBUG: Child Output: 08:48:04 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:48:05,197 | DEBUG: Child Output: 08:48:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:48:08,409 | DEBUG: Child Output: 08:48:08 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:48:29,942 | DEBUG: Child Output: 08:48:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:48:30,401 | DEBUG: Child Output: 08:48:30 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:49:11,646 | DEBUG: Child Output: 08:49:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:49:12,104 | DEBUG: Child Output: 08:49:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:49:15,314 | DEBUG: Child Output: 08:49:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:49:40,492 | DEBUG: Child Output: 08:49:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:49:40,952 | DEBUG: Child Output: 08:49:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:49:59,612 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:49:59,613 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:49:59,613 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:49:59,613 | DEBUG: Data Handler | Excel Size 55289
+2026-09-16 08:49:59,613 | DEBUG: Data Handler | Backup Size 52314
+2026-09-16 08:49:59,613 | DEBUG: Data Handler | Save Success
+2026-09-16 08:50:03,829 | DEBUG: Child Output: 08:50:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 08:50:14,185 | DEBUG: Child Output: 08:50:14 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:50:14,187 | DEBUG: Child Output: 08:50:14 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:50:14,188 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:50:14,188 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:50:14,188 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:50:14,189 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:50:14,189 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:50:14,189 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:50:14,189 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:50:14,189 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:52:07,598 | DEBUG: Child Output: 08:52:07 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:52:32,777 | DEBUG: Child Output: 08:52:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:52:36,234 | DEBUG: Child Output: 08:52:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:52:39,445 | DEBUG: Child Output: 08:52:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:53:04,599 | DEBUG: Child Output: 08:53:04 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:53:05,059 | DEBUG: Child Output: 08:53:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Excel Size 58247
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Backup Size 55289
+2026-09-16 08:53:23,849 | DEBUG: Data Handler | Save Success
+2026-09-16 08:53:28,072 | DEBUG: Child Output: 08:53:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:53:28,532 | DEBUG: Child Output: 08:53:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:53:31,743 | DEBUG: Child Output: 08:53:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:53:53,258 | DEBUG: Child Output: 08:53:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:53:53,716 | DEBUG: Child Output: 08:53:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:53:56,926 | DEBUG: Child Output: 08:53:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:54:14,694 | DEBUG: Child Output: 08:54:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 08:54:22,129 | DEBUG: Child Output: 08:54:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:54:22,588 | DEBUG: Child Output: 08:54:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:54:25,798 | DEBUG: Child Output: 08:54:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:54:50,976 | DEBUG: Child Output: 08:54:50 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:54:51,435 | DEBUG: Child Output: 08:54:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:55:18,592 | DEBUG: Child Output: 08:55:18 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 08:55:18,821 | DEBUG: Child Output: 08:55:18 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 08:55:19,052 | DEBUG: Child Output: 08:55:19 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 08:55:22,509 | DEBUG: Child Output: 08:55:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 08:55:28,952 | DEBUG: Child Output: 08:55:28 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:55:28,954 | DEBUG: Child Output: 08:55:28 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:55:28,954 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:55:28,954 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:55:28,954 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:55:28,954 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:55:28,954 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:55:28,954 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:55:28,955 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:55:28,955 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:55:32,387 | DEBUG: Child Output: 08:55:32 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 08:55:32,389 | DEBUG: Child Output: 08:55:32 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:55:32,389 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 08:55:32,390 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 08:55:32,391 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 08:55:32,391 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 08:55:32,391 | DEBUG: Child Output: self._process(callback)
+2026-09-16 08:55:32,391 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 08:55:32,392 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 08:55:32,392 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 08:56:30,819 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:56:30,820 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:56:30,820 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:56:30,820 | DEBUG: Data Handler | Excel Size 60821
+2026-09-16 08:56:30,820 | DEBUG: Data Handler | Backup Size 58247
+2026-09-16 08:56:30,820 | DEBUG: Data Handler | Save Success
+2026-09-16 08:56:35,034 | DEBUG: Child Output: 08:56:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:56:35,493 | DEBUG: Child Output: 08:56:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:57:00,216 | DEBUG: Child Output: 08:57:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:57:00,674 | DEBUG: Child Output: 08:57:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:57:03,884 | DEBUG: Child Output: 08:57:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:57:29,083 | DEBUG: Child Output: 08:57:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:57:29,542 | DEBUG: Child Output: 08:57:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:57:51,284 | DEBUG: Child Output: 08:57:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:57:51,742 | DEBUG: Child Output: 08:57:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:57:54,955 | DEBUG: Child Output: 08:57:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:58:13,720 | DEBUG: Child Output: 08:58:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:58:14,178 | DEBUG: Child Output: 08:58:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:58:17,389 | DEBUG: Child Output: 08:58:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:58:41,326 | DEBUG: Child Output: 08:58:41 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 08:59:25,006 | DEBUG: Child Output: 08:59:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:59:28,217 | DEBUG: Child Output: 08:59:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:59:31,429 | DEBUG: Child Output: 08:59:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 08:59:45,502 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 08:59:45,502 | DEBUG: Data Handler | Backup Excel
+2026-09-16 08:59:45,502 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 08:59:45,502 | DEBUG: Data Handler | Excel Size 63374
+2026-09-16 08:59:45,502 | DEBUG: Data Handler | Backup Size 60821
+2026-09-16 08:59:45,503 | DEBUG: Data Handler | Save Success
+2026-09-16 08:59:49,717 | DEBUG: Child Output: 08:59:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 08:59:50,176 | DEBUG: Child Output: 08:59:50 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 08:59:53,388 | DEBUG: Child Output: 08:59:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:00:11,161 | DEBUG: Child Output: 09:00:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:00:18,592 | DEBUG: Child Output: 09:00:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:00:19,050 | DEBUG: Child Output: 09:00:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:00:43,783 | DEBUG: Child Output: 09:00:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:00:44,241 | DEBUG: Child Output: 09:00:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:00:47,450 | DEBUG: Child Output: 09:00:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:01:12,655 | DEBUG: Child Output: 09:01:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:01:13,114 | DEBUG: Child Output: 09:01:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:01:16,324 | DEBUG: Child Output: 09:01:16 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:01:37,841 | DEBUG: Child Output: 09:01:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:01:38,299 | DEBUG: Child Output: 09:01:38 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:01:41,509 | DEBUG: Child Output: 09:01:41 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:02:15,548 | DEBUG: Child Output: 09:02:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:03:01,353 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:03:01,353 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:03:01,353 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:03:01,353 | DEBUG: Data Handler | Excel Size 65985
+2026-09-16 09:03:01,353 | DEBUG: Data Handler | Backup Size 63374
+2026-09-16 09:03:01,354 | DEBUG: Data Handler | Save Success
+2026-09-16 09:03:05,569 | DEBUG: Child Output: 09:03:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:03:06,028 | DEBUG: Child Output: 09:03:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:03:27,748 | DEBUG: Child Output: 09:03:27 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:03:28,209 | DEBUG: Child Output: 09:03:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:03:49,927 | DEBUG: Child Output: 09:03:49 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:03:53,383 | DEBUG: Child Output: 09:03:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:03:57,263 | DEBUG: Child Output: 09:03:57 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:04:03,479 | DEBUG: Child Output: 09:04:03 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:04:03,479 | DEBUG: Child Output: 09:04:03 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:04:03,479 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:04:03,479 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:04:03,479 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:04:03,479 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:04:03,480 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:04:03,480 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:04:03,480 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:04:03,480 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:04:19,030 | DEBUG: Child Output: 09:04:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:04:19,490 | DEBUG: Child Output: 09:04:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:04:45,114 | DEBUG: Child Output: 09:04:45 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:04:54,761 | DEBUG: Child Output: 09:04:54 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:04:54,763 | DEBUG: Child Output: 09:04:54 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:04:54,763 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:04:54,763 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:04:54,763 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:04:54,763 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:04:54,763 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:04:54,763 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:04:54,763 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:04:54,764 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:05:12,280 | DEBUG: Child Output: 09:05:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:05:15,491 | DEBUG: Child Output: 09:05:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:05:55,736 | DEBUG: Child Output: 09:05:55 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:05:55,736 | DEBUG: Child Output: 09:05:55 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:05:55,736 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:05:55,737 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:05:55,737 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:05:55,737 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:05:55,737 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:05:55,737 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:05:55,737 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:05:55,737 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:05:55,944 | DEBUG: Child Output: 09:05:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:06:10,132 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:06:10,133 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:06:10,133 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:06:10,133 | DEBUG: Data Handler | Excel Size 68557
+2026-09-16 09:06:10,133 | DEBUG: Data Handler | Backup Size 65985
+2026-09-16 09:06:10,133 | DEBUG: Data Handler | Save Success
+2026-09-16 09:06:14,362 | DEBUG: Child Output: 09:06:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:06:14,822 | DEBUG: Child Output: 09:06:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:06:18,032 | DEBUG: Child Output: 09:06:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:06:32,136 | DEBUG: Child Output: 09:06:32 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a
+2026-09-16 09:06:46,220 | DEBUG: Child Output: 09:06:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:06:46,679 | DEBUG: Child Output: 09:06:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:06:49,888 | DEBUG: Child Output: 09:06:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:07:15,051 | DEBUG: Child Output: 09:07:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:07:15,510 | DEBUG: Child Output: 09:07:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:07:37,236 | DEBUG: Child Output: 09:07:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:07:37,695 | DEBUG: Child Output: 09:07:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:07:40,906 | DEBUG: Child Output: 09:07:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:08:02,425 | DEBUG: Child Output: 09:08:02 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:08:05,880 | DEBUG: Child Output: 09:08:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:08:12,760 | DEBUG: Child Output: 09:08:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:08:31,293 | DEBUG: Child Output: 09:08:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:08:31,753 | DEBUG: Child Output: 09:08:31 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Excel Size 71110
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Backup Size 68557
+2026-09-16 09:09:13,573 | DEBUG: Data Handler | Save Success
+2026-09-16 09:09:18,261 | DEBUG: Child Output: 09:09:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:09:39,972 | DEBUG: Child Output: 09:09:39 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:09:43,867 | DEBUG: Child Output: 09:09:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:09:53,516 | DEBUG: Child Output: 09:09:53 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:09:53,518 | DEBUG: Child Output: 09:09:53 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:09:53,518 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:09:53,518 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:09:53,518 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:09:53,518 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:09:53,518 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:09:53,518 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:09:53,519 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:09:53,519 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:10:11,034 | DEBUG: Child Output: 09:10:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:10:32,755 | DEBUG: Child Output: 09:10:32 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:10:36,658 | DEBUG: Child Output: 09:10:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:10:46,315 | DEBUG: Child Output: 09:10:46 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:10:46,315 | DEBUG: Child Output: 09:10:46 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:10:46,316 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:10:46,316 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:10:46,316 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:10:46,317 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:10:46,317 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:10:46,317 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:10:46,317 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:10:46,318 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:11:25,557 | DEBUG: Child Output: 09:11:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:11:26,017 | DEBUG: Child Output: 09:11:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:11:47,753 | DEBUG: Child Output: 09:11:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:11:51,209 | DEBUG: Child Output: 09:11:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:11:54,420 | DEBUG: Child Output: 09:11:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:12:21,545 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:12:21,545 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:12:21,545 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:12:21,545 | DEBUG: Data Handler | Excel Size 73692
+2026-09-16 09:12:21,546 | DEBUG: Data Handler | Backup Size 71110
+2026-09-16 09:12:21,546 | DEBUG: Data Handler | Save Success
+2026-09-16 09:12:25,760 | DEBUG: Child Output: 09:12:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:12:50,945 | DEBUG: Child Output: 09:12:50 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:12:54,404 | DEBUG: Child Output: 09:12:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:13:16,118 | DEBUG: Child Output: 09:13:16 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:13:16,577 | DEBUG: Child Output: 09:13:16 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:13:19,790 | DEBUG: Child Output: 09:13:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:13:41,310 | DEBUG: Child Output: 09:13:41 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:13:44,766 | DEBUG: Child Output: 09:13:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:13:47,976 | DEBUG: Child Output: 09:13:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:13:51,187 | DEBUG: Child Output: 09:13:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:13:54,399 | DEBUG: Child Output: 09:13:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:14:15,913 | DEBUG: Child Output: 09:14:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:15:04,741 | DEBUG: Child Output: 09:15:04 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:15:07,952 | DEBUG: Child Output: 09:15:07 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:15:15,386 | DEBUG: Child Output: 09:15:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:15:15,844 | DEBUG: Child Output: 09:15:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:15:19,055 | DEBUG: Child Output: 09:15:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:15:46,119 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:15:46,120 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:15:46,120 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:15:46,120 | DEBUG: Data Handler | Excel Size 76235
+2026-09-16 09:15:46,120 | DEBUG: Data Handler | Backup Size 73692
+2026-09-16 09:15:46,121 | DEBUG: Data Handler | Save Success
+2026-09-16 09:15:50,567 | DEBUG: Child Output: 09:15:50 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:15:54,024 | DEBUG: Child Output: 09:15:54 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:16:22,657 | DEBUG: Child Output: 09:16:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:16:46,361 | DEBUG: Child Output: 09:16:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:16:49,821 | DEBUG: Child Output: 09:16:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:17:11,552 | DEBUG: Child Output: 09:17:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:17:12,011 | DEBUG: Child Output: 09:17:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:17:15,223 | DEBUG: Child Output: 09:17:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:17:36,746 | DEBUG: Child Output: 09:17:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:17:37,205 | DEBUG: Child Output: 09:17:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:17:40,416 | DEBUG: Child Output: 09:17:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:18:01,919 | DEBUG: Child Output: 09:18:01 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:18:05,375 | DEBUG: Child Output: 09:18:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:18:08,586 | DEBUG: Child Output: 09:18:08 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:18:11,797 | DEBUG: Child Output: 09:18:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:18:15,008 | DEBUG: Child Output: 09:18:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:18:36,534 | DEBUG: Child Output: 09:18:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:18:36,993 | DEBUG: Child Output: 09:18:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:18:40,204 | DEBUG: Child Output: 09:18:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:19:01,462 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:19:01,462 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:19:01,462 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:19:01,462 | DEBUG: Data Handler | Excel Size 78784
+2026-09-16 09:19:01,463 | DEBUG: Data Handler | Backup Size 76235
+2026-09-16 09:19:01,463 | DEBUG: Data Handler | Save Success
+2026-09-16 09:19:05,681 | DEBUG: Child Output: 09:19:05 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51
+2026-09-16 09:19:05,911 | DEBUG: Child Output: 09:19:05 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:19:13,013 | DEBUG: Child Output: 09:19:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:19:16,224 | DEBUG: Child Output: 09:19:16 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:19:58,466 | DEBUG: Child Output: 09:19:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:20:08,822 | DEBUG: Child Output: 09:20:08 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:20:08,823 | DEBUG: Child Output: 09:20:08 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:20:08,823 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:20:08,823 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:20:08,823 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:20:08,823 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:20:08,823 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:20:08,823 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:20:08,823 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:20:08,823 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:20:12,056 | DEBUG: Child Output: 09:20:12 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:20:12,056 | DEBUG: Child Output: 09:20:12 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:20:12,056 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:20:12,056 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:20:12,056 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:20:12,056 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:20:12,056 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:20:12,056 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:20:12,057 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:20:12,057 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:20:51,290 | DEBUG: Child Output: 09:20:51 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:20:55,187 | DEBUG: Child Output: 09:20:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:21:04,611 | DEBUG: Child Output: 09:21:04 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:21:04,612 | DEBUG: Child Output: 09:21:04 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:21:04,612 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:21:04,613 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:21:04,614 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:21:04,614 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:21:04,614 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:21:04,615 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:21:04,615 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:21:04,615 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:21:20,138 | DEBUG: Child Output: 09:21:20 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:21:48,977 | DEBUG: Child Output: 09:21:48 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:21:52,873 | DEBUG: Child Output: 09:21:52 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:22:02,298 | DEBUG: Child Output: 09:22:02 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:22:02,298 | DEBUG: Child Output: 09:22:02 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:22:02,298 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:22:02,298 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:22:02,298 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:22:02,299 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:22:02,299 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:22:02,299 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:22:02,299 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:22:02,299 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:22:16,817 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:22:16,817 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:22:16,818 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:22:16,818 | DEBUG: Data Handler | Excel Size 81335
+2026-09-16 09:22:16,818 | DEBUG: Data Handler | Backup Size 78784
+2026-09-16 09:22:16,818 | DEBUG: Data Handler | Save Success
+2026-09-16 09:22:40,448 | DEBUG: Child Output: 09:22:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:22:40,906 | DEBUG: Child Output: 09:22:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:22:44,117 | DEBUG: Child Output: 09:22:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:23:06,531 | DEBUG: Child Output: 09:23:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:23:06,990 | DEBUG: Child Output: 09:23:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:23:18,564 | DEBUG: Child Output: 09:23:18 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb
+2026-09-16 09:23:28,418 | DEBUG: Child Output: 09:23:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:23:35,848 | DEBUG: Child Output: 09:23:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:24:24,463 | DEBUG: Child Output: 09:24:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:24:46,198 | DEBUG: Child Output: 09:24:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:24:52,266 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:24:54,475 | INFO: Starting App
+2026-09-16 09:24:54,483 | INFO: Initializing App
+2026-09-16 09:24:54,483 | DEBUG: Start data_handler.py
+2026-09-16 09:24:54,483 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:24:54,485 | DEBUG: Process data_handler.py started with PID: 35120
+2026-09-16 09:24:54,485 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:24:55,485 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:24:55,487 | DEBUG: Process module_IO.py started with PID: 35123
+2026-09-16 09:24:55,487 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:24:56,487 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:24:56,489 | DEBUG: Process displayGUI.py started with PID: 35130
+2026-09-16 09:24:56,489 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:24:57,489 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:24:57,490 | DEBUG: Process modbusTcpServer.py started with PID: 35133
+2026-09-16 09:24:57,491 | DEBUG: Init GUI Tkinter
+2026-09-16 09:24:57,800 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:24:57,803 | DEBUG: Module IO | Initialize program
+2026-09-16 09:24:57,804 | DEBUG: Module IO | Start loop
+2026-09-16 09:24:57,804 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:24:57,805 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:24:57,920 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:24:57,920 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:25:05,150 | DEBUG: Child Output: 09:25:05 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb
+2026-09-16 09:25:15,206 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:25:15,206 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:25:15,206 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:25:19,430 | DEBUG: Child Output: 09:25:19 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:26:03,257 | DEBUG: Child Output: 09:26:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:26:03,716 | DEBUG: Child Output: 09:26:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:26:25,437 | DEBUG: Child Output: 09:26:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:26:28,892 | DEBUG: Child Output: 09:26:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:26:32,103 | DEBUG: Child Output: 09:26:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:26:57,888 | DEBUG: Child Output: 09:26:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:27:23,076 | DEBUG: Child Output: 09:27:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:27:26,534 | DEBUG: Child Output: 09:27:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:27:29,744 | DEBUG: Child Output: 09:27:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:27:51,950 | DEBUG: Child Output: 09:27:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:27:55,161 | DEBUG: Child Output: 09:27:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Excel Size 84326
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Backup Size 81335
+2026-09-16 09:28:17,638 | DEBUG: Data Handler | Save Success
+2026-09-16 09:28:21,864 | DEBUG: Child Output: 09:28:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:28:22,325 | DEBUG: Child Output: 09:28:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:28:44,063 | DEBUG: Child Output: 09:28:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:28:54,418 | DEBUG: Child Output: 09:28:54 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:28:54,420 | DEBUG: Child Output: 09:28:54 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:28:54,421 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:28:54,421 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:28:54,421 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:28:54,421 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:28:54,421 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:28:54,421 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:28:54,421 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:28:54,421 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:28:57,650 | DEBUG: Child Output: 09:28:57 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:28:57,651 | DEBUG: Child Output: 09:28:57 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:28:57,652 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:28:57,652 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:28:57,652 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:28:57,652 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:28:57,652 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:28:57,652 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:28:57,652 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:28:57,652 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:29:36,917 | DEBUG: Child Output: 09:29:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:30:02,704 | DEBUG: Child Output: 09:30:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:30:03,163 | DEBUG: Child Output: 09:30:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:30:24,887 | DEBUG: Child Output: 09:30:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:30:28,343 | DEBUG: Child Output: 09:30:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:30:53,066 | DEBUG: Child Output: 09:30:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:30:53,526 | DEBUG: Child Output: 09:30:53 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:30:56,736 | DEBUG: Child Output: 09:30:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:31:18,241 | DEBUG: Child Output: 09:31:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:31:21,698 | DEBUG: Child Output: 09:31:21 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Excel Size 87268
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Backup Size 84326
+2026-09-16 09:31:43,945 | DEBUG: Data Handler | Save Success
+2026-09-16 09:31:48,161 | DEBUG: Child Output: 09:31:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:31:48,851 | DEBUG: Child Output: 09:31:48 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:31:58,520 | DEBUG: Child Output: 09:31:58 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:31:58,520 | DEBUG: Child Output: 09:31:58 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:31:58,520 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:31:58,520 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:31:58,520 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:31:58,521 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:31:58,521 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:31:58,521 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:31:58,521 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:31:58,521 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:32:14,036 | DEBUG: Child Output: 09:32:14 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:32:17,932 | DEBUG: Child Output: 09:32:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:32:27,356 | DEBUG: Child Output: 09:32:27 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:32:27,356 | DEBUG: Child Output: 09:32:27 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:32:27,356 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:32:27,357 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:32:27,357 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:32:27,357 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:32:27,357 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:32:27,357 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:32:27,357 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:32:27,357 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:32:42,892 | DEBUG: Child Output: 09:32:42 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:32:43,352 | DEBUG: Child Output: 09:32:43 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:33:05,669 | DEBUG: Child Output: 09:33:05 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:33:06,128 | DEBUG: Child Output: 09:33:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:33:09,338 | DEBUG: Child Output: 09:33:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:33:34,556 | DEBUG: Child Output: 09:33:34 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:33:35,015 | DEBUG: Child Output: 09:33:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:33:38,224 | DEBUG: Child Output: 09:33:38 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:33:57,809 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:34:00,075 | INFO: Starting App
+2026-09-16 09:34:00,084 | INFO: Initializing App
+2026-09-16 09:34:00,084 | DEBUG: Start data_handler.py
+2026-09-16 09:34:00,084 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:34:00,086 | DEBUG: Process data_handler.py started with PID: 39034
+2026-09-16 09:34:00,086 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:34:01,086 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:34:01,088 | DEBUG: Process module_IO.py started with PID: 39035
+2026-09-16 09:34:01,088 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:34:02,088 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:34:02,089 | DEBUG: Process displayGUI.py started with PID: 39041
+2026-09-16 09:34:02,090 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:34:03,097 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:34:03,112 | DEBUG: Process modbusTcpServer.py started with PID: 39060
+2026-09-16 09:34:03,118 | DEBUG: Init GUI Tkinter
+2026-09-16 09:34:03,581 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:34:03,583 | DEBUG: Child Output: 09:34:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:34:03,583 | DEBUG: Module IO | Initialize program
+2026-09-16 09:34:03,584 | DEBUG: Module IO | Start loop
+2026-09-16 09:34:03,585 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:34:03,586 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:34:03,830 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:34:03,831 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:34:23,908 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:34:23,909 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:34:23,909 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:34:28,126 | DEBUG: Child Output: 09:34:28 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:34:32,019 | DEBUG: Child Output: 09:34:32 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:34:35,231 | DEBUG: Child Output: 09:34:35 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:34:56,961 | DEBUG: Child Output: 09:34:56 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:35:00,855 | DEBUG: Child Output: 09:35:00 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:35:10,280 | DEBUG: Child Output: 09:35:10 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:35:10,280 | DEBUG: Child Output: 09:35:10 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:35:10,281 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:35:10,281 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:35:10,281 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:35:10,281 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:35:10,281 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:35:10,281 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:35:10,281 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:35:10,282 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:35:25,810 | DEBUG: Child Output: 09:35:25 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:35:29,707 | DEBUG: Child Output: 09:35:29 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:35:30,867 | INFO: Starting App
+2026-09-16 09:35:30,894 | DEBUG: Starting authorization phase
+2026-09-16 09:35:30,895 | DEBUG: The provided initial strategy is mysql_native_password
+2026-09-16 09:35:30,895 | INFO: package: mysql.connector.plugins
+2026-09-16 09:35:30,895 | INFO: plugin_name: mysql_native_password
+2026-09-16 09:35:30,896 | INFO: AUTHENTICATION_PLUGIN_CLASS: MySQLNativePasswordAuthPlugin
+2026-09-16 09:35:30,897 | DEBUG: mysql_native_password completed succesfully
+2026-09-16 09:35:30,898 | INFO: Initializing App
+2026-09-16 09:35:30,898 | DEBUG: Start data_handler.py
+2026-09-16 09:35:30,898 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:35:30,899 | DEBUG: Process data_handler.py started with PID: 39590
+2026-09-16 09:35:30,900 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:35:31,900 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:35:31,902 | DEBUG: Process module_IO.py started with PID: 39593
+2026-09-16 09:35:31,902 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:35:32,902 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:35:32,903 | DEBUG: Process displayGUI.py started with PID: 39596
+2026-09-16 09:35:32,903 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:35:33,904 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:35:33,906 | DEBUG: Process modbusTcpServer.py started with PID: 39618
+2026-09-16 09:35:33,906 | DEBUG: Init GUI Tkinter
+2026-09-16 09:35:34,261 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:35:34,267 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:35:34,268 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:35:34,269 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:35:34,270 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:35:34,274 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:35:34,273 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/data_handler.py", line 482, in <module>
+2026-09-16 09:35:34,271 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/module_IO.py", line 3, in <module>
+2026-09-16 09:35:34,275 | DEBUG: Child Output: import RPi.GPIO as GPIO # type: ignore
+2026-09-16 09:35:34,275 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^^^^^^^^
+2026-09-16 09:35:34,274 | DEBUG: Child Output: main()
+2026-09-16 09:35:34,276 | DEBUG: Child Output: ModuleNotFoundError: No module named 'RPi'
+2026-09-16 09:35:34,276 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/data_handler.py", line 60, in main
+2026-09-16 09:35:34,278 | DEBUG: Child Output: client = ModbusSerialClient(method='rtu', port='/dev/ttyACM0', baudrate=9600)
+2026-09-16 09:35:34,278 | DEBUG: Child Output: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-09-16 09:35:34,278 | DEBUG: Child Output: TypeError: ModbusSerialClient.__init__() got an unexpected keyword argument 'method'
+2026-09-16 09:35:34,307 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:35:34,309 | DEBUG: Child Output: File "/home/pi/tmu-v2-smart/modbusTcpServer.py", line 3, in <module>
+2026-09-16 09:35:34,309 | DEBUG: Child Output: from pymodbus.datastore import ModbusSequentialDataBlock, ModbusSlaveContext, ModbusServerContext
+2026-09-16 09:35:34,315 | DEBUG: Child Output: ImportError: cannot import name 'ModbusSlaveContext' from 'pymodbus.datastore' (/home/pi/tmu_v3_smart/.venv/lib/python3.11/site-packages/pymodbus/datastore/__init__.py)
+2026-09-16 09:35:36,147 | DEBUG: Child Output: 09:35:36 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:35:36,147 | DEBUG: Child Output: 09:35:36 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:35:36,147 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:35:36,147 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:35:36,147 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:35:36,147 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:35:36,147 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:35:36,147 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:35:36,148 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:35:36,148 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:35:51,886 | DEBUG: Child Output: 09:35:51 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:35:55,346 | DEBUG: Child Output: 09:35:55 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:35:58,557 | DEBUG: Child Output: 09:35:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:36:03,586 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:36:05,788 | INFO: Starting App
+2026-09-16 09:36:05,795 | INFO: Initializing App
+2026-09-16 09:36:05,795 | DEBUG: Start data_handler.py
+2026-09-16 09:36:05,795 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:36:05,796 | DEBUG: Process data_handler.py started with PID: 39836
+2026-09-16 09:36:05,797 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:36:06,797 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:36:06,799 | DEBUG: Process module_IO.py started with PID: 39837
+2026-09-16 09:36:06,799 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:36:07,800 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:36:07,801 | DEBUG: Process displayGUI.py started with PID: 39844
+2026-09-16 09:36:07,801 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:36:08,802 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:36:08,807 | DEBUG: Process modbusTcpServer.py started with PID: 39861
+2026-09-16 09:36:08,808 | DEBUG: Init GUI Tkinter
+2026-09-16 09:36:09,105 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:36:09,106 | DEBUG: Child Output: 09:36:08 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x0 0xff 0x0 0x8c 0x3a 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x2 0x0 0x0 0x6c 0xa 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:36:09,107 | DEBUG: Module IO | Initialize program
+2026-09-16 09:36:09,108 | DEBUG: Module IO | Start loop
+2026-09-16 09:36:09,109 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:36:09,110 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:36:09,252 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:36:09,253 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:36:38,605 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:36:38,605 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:36:38,606 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:36:46,279 | DEBUG: Child Output: 09:36:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:36:49,489 | DEBUG: Child Output: 09:36:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:37:14,651 | DEBUG: Child Output: 09:37:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:37:15,113 | DEBUG: Child Output: 09:37:15 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:37:36,848 | DEBUG: Child Output: 09:37:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:37:37,307 | DEBUG: Child Output: 09:37:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:37:40,519 | DEBUG: Child Output: 09:37:40 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:38:02,024 | DEBUG: Child Output: 09:38:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:38:02,484 | DEBUG: Child Output: 09:38:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:38:24,203 | DEBUG: Child Output: 09:38:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:38:24,663 | DEBUG: Child Output: 09:38:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:38:27,873 | DEBUG: Child Output: 09:38:27 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:38:49,862 | DEBUG: Child Output: 09:38:49 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:39:11,590 | DEBUG: Child Output: 09:39:11 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:39:12,051 | DEBUG: Child Output: 09:39:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:39:31,925 | DEBUG: Data Handler | Check Current Excel Size
+2026-09-16 09:39:31,925 | DEBUG: Data Handler | Backup Excel
+2026-09-16 09:39:31,926 | DEBUG: Data Handler | Try to save Excel from work stage
+2026-09-16 09:39:31,927 | DEBUG: Data Handler | Excel Size 90204
+2026-09-16 09:39:31,928 | DEBUG: Data Handler | Backup Size 87268
+2026-09-16 09:39:31,928 | DEBUG: Data Handler | Save Success
+2026-09-16 09:39:36,141 | DEBUG: Child Output: 09:39:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:39:36,601 | DEBUG: Child Output: 09:39:36 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:39:58,319 | DEBUG: Child Output: 09:39:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:39:58,778 | DEBUG: Child Output: 09:39:58 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:40:01,988 | DEBUG: Child Output: 09:40:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:40:23,503 | DEBUG: Child Output: 09:40:23 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:40:26,960 | DEBUG: Child Output: 09:40:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:40:30,821 | DEBUG: Child Output: 09:40:30 WARNING serial:261 Cleanup recv buffer before send: 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:40:52,349 | DEBUG: Child Output: 09:40:52 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:40:56,246 | DEBUG: Child Output: 09:40:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:41:02,688 | DEBUG: Child Output: 09:41:02 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:41:02,688 | DEBUG: Child Output: 09:41:02 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:41:02,688 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:41:02,689 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:41:02,690 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:41:02,690 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:41:02,690 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:41:02,690 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:41:02,690 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:41:02,691 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:41:18,430 | DEBUG: Child Output: 09:41:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:41:18,888 | DEBUG: Child Output: 09:41:18 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:41:22,100 | DEBUG: Child Output: 09:41:22 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:41:36,630 | DEBUG: Child Output: 09:41:36 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:41:39,840 | DEBUG: Child Output: 09:41:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:41:47,278 | DEBUG: Child Output: 09:41:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:41:47,738 | DEBUG: Child Output: 09:41:47 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:42:09,110 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:42:11,312 | INFO: Starting App
+2026-09-16 09:42:11,320 | INFO: Initializing App
+2026-09-16 09:42:11,321 | DEBUG: Start data_handler.py
+2026-09-16 09:42:11,321 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:42:11,322 | DEBUG: Process data_handler.py started with PID: 42606
+2026-09-16 09:42:11,322 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:42:12,323 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:42:12,324 | DEBUG: Process module_IO.py started with PID: 42607
+2026-09-16 09:42:12,324 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:42:13,325 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:42:13,326 | DEBUG: Process displayGUI.py started with PID: 42631
+2026-09-16 09:42:13,327 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:42:14,327 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:42:14,331 | DEBUG: Process modbusTcpServer.py started with PID: 42639
+2026-09-16 09:42:14,332 | DEBUG: Init GUI Tkinter
+2026-09-16 09:42:14,647 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:42:14,649 | DEBUG: Module IO | Initialize program
+2026-09-16 09:42:14,650 | DEBUG: Module IO | Start loop
+2026-09-16 09:42:14,650 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:42:14,653 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:42:14,785 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:42:14,785 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:42:32,881 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:42:32,882 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:42:32,882 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:42:37,098 | DEBUG: Child Output: 09:42:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:42:37,557 | DEBUG: Child Output: 09:42:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:43:02,958 | DEBUG: Child Output: 09:43:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:43:03,417 | DEBUG: Child Output: 09:43:03 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:43:06,629 | DEBUG: Child Output: 09:43:06 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:43:25,391 | DEBUG: Child Output: 09:43:25 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:43:28,847 | DEBUG: Child Output: 09:43:28 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:43:57,507 | DEBUG: Child Output: 09:43:57 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:44:14,652 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:44:16,902 | INFO: Starting App
+2026-09-16 09:44:16,910 | INFO: Initializing App
+2026-09-16 09:44:16,910 | DEBUG: Start data_handler.py
+2026-09-16 09:44:16,911 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:44:16,912 | DEBUG: Process data_handler.py started with PID: 43494
+2026-09-16 09:44:16,912 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:44:17,914 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:44:17,921 | DEBUG: Process module_IO.py started with PID: 43509
+2026-09-16 09:44:17,921 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:44:18,922 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:44:18,926 | DEBUG: Process displayGUI.py started with PID: 43524
+2026-09-16 09:44:18,926 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:44:19,927 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:44:19,930 | DEBUG: Process modbusTcpServer.py started with PID: 43527
+2026-09-16 09:44:19,931 | DEBUG: Init GUI Tkinter
+2026-09-16 09:44:20,194 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:44:20,197 | DEBUG: Module IO | Initialize program
+2026-09-16 09:44:20,197 | DEBUG: Module IO | Start loop
+2026-09-16 09:44:20,198 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:44:20,199 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:44:20,280 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:44:20,280 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:44:23,081 | DEBUG: Child Output: 09:44:23 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:44:26,291 | DEBUG: Child Output: 09:44:26 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:44:41,289 | DEBUG: Child Output: 09:44:41 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:44:47,504 | DEBUG: Child Output: 09:44:47 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:44:47,506 | DEBUG: Child Output: 09:44:47 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:44:47,507 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:44:47,507 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:44:47,507 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:44:47,507 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:44:47,507 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:44:47,507 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:44:47,507 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:44:47,507 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:44:47,955 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:44:47,955 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:44:47,956 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:44:52,194 | DEBUG: Child Output: 09:44:52 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:45:13,943 | DEBUG: Child Output: 09:45:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:45:14,402 | DEBUG: Child Output: 09:45:14 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:45:17,614 | DEBUG: Child Output: 09:45:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:45:39,120 | DEBUG: Child Output: 09:45:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:45:39,578 | DEBUG: Child Output: 09:45:39 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:45:42,789 | DEBUG: Child Output: 09:45:42 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:46:01,244 | DEBUG: Child Output: 09:46:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:46:09,146 | DEBUG: Child Output: 09:46:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:46:20,199 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:46:22,463 | INFO: Starting App
+2026-09-16 09:46:22,474 | INFO: Initializing App
+2026-09-16 09:46:22,475 | DEBUG: Start data_handler.py
+2026-09-16 09:46:22,475 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:46:22,476 | DEBUG: Process data_handler.py started with PID: 44389
+2026-09-16 09:46:22,477 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:46:23,477 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:46:23,480 | DEBUG: Process module_IO.py started with PID: 44390
+2026-09-16 09:46:23,481 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:46:24,482 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:46:24,485 | DEBUG: Process displayGUI.py started with PID: 44397
+2026-09-16 09:46:24,485 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:46:25,486 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:46:25,489 | DEBUG: Process modbusTcpServer.py started with PID: 44401
+2026-09-16 09:46:25,489 | DEBUG: Init GUI Tkinter
+2026-09-16 09:46:25,820 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:46:25,824 | DEBUG: Module IO | Initialize program
+2026-09-16 09:46:25,824 | DEBUG: Module IO | Start loop
+2026-09-16 09:46:25,825 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:46:25,826 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:46:26,011 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:46:26,012 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:46:49,036 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:46:49,036 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:46:49,037 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:46:56,718 | DEBUG: Child Output: 09:46:56 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:46:59,928 | DEBUG: Child Output: 09:46:59 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:47:07,596 | DEBUG: Child Output: 09:47:07 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x1 0x0 0x0 0x9c 0xa
+2026-09-16 09:47:19,944 | INFO: Starting App
+2026-09-16 09:47:19,956 | INFO: Initializing App
+2026-09-16 09:47:19,957 | DEBUG: Start data_handler.py
+2026-09-16 09:47:19,957 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:47:19,961 | DEBUG: Process data_handler.py started with PID: 44753
+2026-09-16 09:47:19,962 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:47:20,964 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:47:20,970 | DEBUG: Process module_IO.py started with PID: 44772
+2026-09-16 09:47:20,971 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:47:21,976 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:47:21,979 | DEBUG: Process displayGUI.py started with PID: 44778
+2026-09-16 09:47:21,980 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:47:22,983 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:47:22,986 | DEBUG: Process modbusTcpServer.py started with PID: 44783
+2026-09-16 09:47:22,987 | DEBUG: Init GUI Tkinter
+2026-09-16 09:47:23,441 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:47:23,445 | DEBUG: Module IO | Initialize program
+2026-09-16 09:47:23,446 | DEBUG: Module IO | Start loop
+2026-09-16 09:47:23,445 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:47:23,448 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:47:23,652 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:47:23,652 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:47:24,236 | DEBUG: Child Output: 09:47:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:47:24,697 | DEBUG: Child Output: 09:47:24 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:47:41,858 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:47:41,858 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:47:41,858 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:47:46,560 | DEBUG: Child Output: 09:47:46 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:48:08,274 | DEBUG: Child Output: 09:48:08 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:48:42,888 | DEBUG: Child Output: 09:48:42 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:48:53,246 | DEBUG: Child Output: 09:48:53 ERROR factory:331 unpack requires a buffer of 2 bytes
+2026-09-16 09:48:53,252 | DEBUG: Child Output: 09:48:53 ERROR transaction:244 Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:48:53,253 | DEBUG: Child Output: Traceback (most recent call last):
+2026-09-16 09:48:53,254 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/transaction.py", line 217, in execute
+2026-09-16 09:48:53,254 | DEBUG: Child Output: self.client.framer.processIncomingPacket(
+2026-09-16 09:48:53,254 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 239, in processIncomingPacket
+2026-09-16 09:48:53,254 | DEBUG: Child Output: self._process(callback)
+2026-09-16 09:48:53,254 | DEBUG: Child Output: File "/usr/lib/python3/dist-packages/pymodbus/framer/rtu_framer.py", line 331, in _process
+2026-09-16 09:48:53,255 | DEBUG: Child Output: raise ModbusIOException("Unable to decode request")
+2026-09-16 09:48:53,255 | DEBUG: Child Output: pymodbus.exceptions.ModbusIOException: Modbus Error: [Input/Output] Unable to decode request
+2026-09-16 09:49:13,979 | DEBUG: Child Output: 09:49:13 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:49:17,188 | DEBUG: Child Output: 09:49:17 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:49:31,735 | DEBUG: Child Output: 09:49:31 WARNING serial:261 Cleanup recv buffer before send: 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8
+2026-09-16 09:49:34,946 | DEBUG: Child Output: 09:49:34 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0
+2026-09-16 09:49:42,415 | DEBUG: Child Output: 09:49:42 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:49:42,881 | DEBUG: Child Output: 09:49:42 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:50:08,083 | DEBUG: Child Output: 09:50:08 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:50:23,452 | INFO: Restart triggered by watchdog freeze detection
+2026-09-16 09:50:25,971 | INFO: Starting App
+2026-09-16 09:50:26,010 | INFO: Initializing App
+2026-09-16 09:50:26,011 | DEBUG: Start data_handler.py
+2026-09-16 09:50:26,011 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:50:26,013 | DEBUG: Process data_handler.py started with PID: 46895
+2026-09-16 09:50:26,013 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:50:27,013 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:50:27,015 | DEBUG: Process module_IO.py started with PID: 46914
+2026-09-16 09:50:27,015 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:50:28,016 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:50:28,017 | DEBUG: Process displayGUI.py started with PID: 46921
+2026-09-16 09:50:28,017 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:50:29,017 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:50:29,019 | DEBUG: Process modbusTcpServer.py started with PID: 46927
+2026-09-16 09:50:29,019 | DEBUG: Init GUI Tkinter
+2026-09-16 09:50:30,241 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:50:30,243 | DEBUG: Module IO | Initialize program
+2026-09-16 09:50:30,244 | DEBUG: Module IO | Start loop
+2026-09-16 09:50:30,245 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:50:30,247 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:50:30,328 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:50:30,328 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:50:33,728 | DEBUG: Child Output: 09:50:33 WARNING serial:261 Cleanup recv buffer before send: 0x1 0x5 0x0 0x3 0xff 0x0 0x7c 0x3a 0x1 0x5 0x0 0x4 0x0 0x0 0x8c 0xb 0x1 0x85 0x2 0xc3 0x51 0x3 0x3 0x0 0x4 0x0 0x3 0x45 0xe8 0x2 0x3 0x0 0x0 0x0 0x1d 0x85 0xf0 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:50:37,186 | DEBUG: Child Output: 09:50:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:50:57,700 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:50:57,700 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:50:57,700 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:51:01,933 | DEBUG: Child Output: 09:51:01 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:51:02,393 | DEBUG: Child Output: 09:51:02 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:51:27,133 | DEBUG: Child Output: 09:51:27 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:51:39,686 | INFO: Starting App
+2026-09-16 09:51:39,698 | INFO: Initializing App
+2026-09-16 09:51:39,699 | DEBUG: Start data_handler.py
+2026-09-16 09:51:39,699 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:51:39,701 | DEBUG: Process data_handler.py started with PID: 47353
+2026-09-16 09:51:39,701 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:51:40,702 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:51:40,705 | DEBUG: Process module_IO.py started with PID: 47355
+2026-09-16 09:51:40,705 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:51:41,706 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:51:41,709 | DEBUG: Process displayGUI.py started with PID: 47373
+2026-09-16 09:51:41,709 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:51:42,710 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:51:42,846 | DEBUG: Process modbusTcpServer.py started with PID: 47381
+2026-09-16 09:51:42,846 | DEBUG: Init GUI Tkinter
+2026-09-16 09:51:44,918 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:51:44,920 | DEBUG: Module IO | Initialize program
+2026-09-16 09:51:44,920 | DEBUG: Module IO | Start loop
+2026-09-16 09:51:44,922 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:51:44,922 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:51:44,923 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:51:44,924 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:52:15,662 | INFO: Starting App
+2026-09-16 09:52:15,669 | INFO: Initializing App
+2026-09-16 09:52:15,670 | DEBUG: Start data_handler.py
+2026-09-16 09:52:15,670 | DEBUG: Starting process: data_handler.py
+2026-09-16 09:52:15,671 | DEBUG: Process data_handler.py started with PID: 47622
+2026-09-16 09:52:15,671 | DEBUG: Sleep 1s then start module_IO.py
+2026-09-16 09:52:16,671 | DEBUG: Starting process: module_IO.py
+2026-09-16 09:52:16,673 | DEBUG: Process module_IO.py started with PID: 47623
+2026-09-16 09:52:16,674 | DEBUG: Sleep 1s then start displayGUI.py
+2026-09-16 09:52:17,676 | DEBUG: Starting process: displayGUI.py
+2026-09-16 09:52:17,678 | DEBUG: Process displayGUI.py started with PID: 47645
+2026-09-16 09:52:17,678 | DEBUG: Sleep 1s then start modbusTcpServer.py
+2026-09-16 09:52:18,678 | DEBUG: Starting process: modbusTcpServer.py
+2026-09-16 09:52:18,682 | DEBUG: Process modbusTcpServer.py started with PID: 47654
+2026-09-16 09:52:18,683 | DEBUG: Init GUI Tkinter
+2026-09-16 09:52:19,114 | DEBUG: Start Threads - Streaming + Watchdog
+2026-09-16 09:52:19,117 | DEBUG: Module IO | Initialize program
+2026-09-16 09:52:19,118 | DEBUG: Module IO | Start loop
+2026-09-16 09:52:19,118 | DEBUG: Display GUI | Initialize program
+2026-09-16 09:52:19,119 | DEBUG: Display GUI | Start Loop
+2026-09-16 09:52:19,336 | DEBUG: Modbus Server | Initialize program
+2026-09-16 09:52:19,337 | DEBUG: Modbus Server | Start Loop
+2026-09-16 09:52:39,787 | DEBUG: Data Handler | Initialize Program
+2026-09-16 09:52:39,787 | DEBUG: Data Handler | Open Existing Excel
+2026-09-16 09:52:39,788 | DEBUG: Data Handler | Start Loop
+2026-09-16 09:52:44,477 | DEBUG: Child Output: 09:52:44 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:53:09,202 | DEBUG: Child Output: 09:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x20 0x0 0x6 0xc4 0x75
+2026-09-16 09:53:09,661 | DEBUG: Child Output: 09:53:09 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:53:12,871 | DEBUG: Child Output: 09:53:12 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e
+2026-09-16 09:53:34,389 | DEBUG: Child Output: 09:53:34 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x0 0x2e 0x0 0x5 0xe5 0xf3
+2026-09-16 09:53:37,845 | DEBUG: Child Output: 09:53:37 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x26 0x0 0x5a 0x24 0x4d
+2026-09-16 09:53:41,056 | DEBUG: Child Output: 09:53:41 WARNING serial:261 Cleanup recv buffer before send: 0x2 0x3 0x3 0x80 0x0 0x5a 0xc4 0x6e

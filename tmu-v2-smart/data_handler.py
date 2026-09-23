@@ -28,9 +28,9 @@ def loadFlags():
         sys.exit(1)
     with open(configPath, 'r') as f:
         config = json.load(f)
-    return config['OLTCstat'], config['pressureStat'], config['tempStat']
+    return config['OLTCstat'], config['pressureStat'], config['gasStat'], config['dryTypeStat']
 
-OLTCstat, pressureStat, tempStat = loadFlags()
+OLTCstat, pressureStat, gasStat, dryTypeStat = loadFlags()
 
 companyKey = "P66geqk4bYQuetarke2Z"
 raspiSerialNo = "1000000024b2178e"

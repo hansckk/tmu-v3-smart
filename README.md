@@ -1,5 +1,9 @@
 # TMU V3 Smart V 1.0.0
 
+# Spesifikasi program
+
+Menggunakan Python dengan library tkinter, pathlib
+
 # Cara run
 
 1. Di folder yang sama, tulis di command prompt bash build.sh
